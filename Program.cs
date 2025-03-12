@@ -12,13 +12,15 @@ builder.Services.AddSwaggerGen();
 
 builder.Logging.AddConsole();
 
+builder.Services.AddControllers(option => option.SuppressAsyncSuffixInActionNames = false);
+
 builder.Services.AddControllers();
 
 builder.Services.AddScoped<ICityRepository, CityRepository>();
 
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
-builder.Services.AddDbContext<WebApiDataBaseContext>(option => 
+builder.Services.AddDbContext<WebApiDataBaseContext>(option =>
 {
     option.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });

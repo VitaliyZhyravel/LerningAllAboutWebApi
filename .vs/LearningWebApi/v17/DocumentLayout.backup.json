@@ -7,32 +7,36 @@
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\dtomodels\\cityresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:dtomodels\\cityresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\dtomodels\\cityrequesttoupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:dtomodels\\cityrequesttoupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\dtomodels\\cityresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:dtomodels\\cityresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\learningwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:learningwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\dtomodels\\cityrequesttocreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:dtomodels\\cityrequesttocreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\repositories\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -64,12 +68,33 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CityRequestToUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\DtoModels\\CityRequestToUpdate.cs",
+              "RelativeDocumentMoniker": "DtoModels\\CityRequestToUpdate.cs",
+              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\DtoModels\\CityRequestToUpdate.cs",
+              "RelativeToolTip": "DtoModels\\CityRequestToUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:50:51.921Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
+              "Title": "LearningWebApi.http",
+              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\LearningWebApi.http",
+              "RelativeDocumentMoniker": "LearningWebApi.http",
+              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\LearningWebApi.http",
+              "RelativeToolTip": "LearningWebApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-12T15:22:18.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "CityController.cs",
               "DocumentMoniker": "C:\\Users\\vital\\AppData\\Local\\SourceServer\\e25d2c208a713e835d4b530ad1d2d76bd6e99fa5ddc588f9082256ab7a76b3a2\\Controllers\\CityController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\e25d2c208a713e835d4b530ad1d2d76bd6e99fa5ddc588f9082256ab7a76b3a2\\Controllers\\CityController.cs",
@@ -82,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ICityRepository.cs",
               "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Repositories\\ICityRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ICityRepository.cs",
@@ -90,44 +115,30 @@
               "RelativeToolTip": "Repositories\\ICityRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T10:32:46.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T10:32:46.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CitiesController.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Controllers\\CitiesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CitiesController.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Controllers\\CitiesController.cs",
-              "RelativeToolTip": "Controllers\\CitiesController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwFMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T09:49:06.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T09:34:43.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "CityResponse.cs",
               "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\DtoModels\\CityResponse.cs",
               "RelativeDocumentMoniker": "DtoModels\\CityResponse.cs",
               "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\DtoModels\\CityResponse.cs",
               "RelativeToolTip": "DtoModels\\CityResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T09:10:12.859Z",
               "EditorCaption": ""
@@ -140,10 +151,9 @@
               "RelativeDocumentMoniker": "DtoModels\\CityRequestToCreate.cs",
               "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\DtoModels\\CityRequestToCreate.cs",
               "RelativeToolTip": "DtoModels\\CityRequestToCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T09:08:40.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T09:08:40.424Z"
             },
             {
               "$type": "Document",
@@ -153,14 +163,14 @@
               "RelativeDocumentMoniker": "Models\\City.cs",
               "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\City.cs",
               "RelativeToolTip": "Models\\City.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T09:04:17.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CityRepository.cs",
               "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Repositories\\CityRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CityRepository.cs",
@@ -168,18 +178,17 @@
               "RelativeToolTip": "Repositories\\CityRepository.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAswCgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T08:56:31.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T08:56:31.846Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CityController.cs",
               "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Controllers\\CityController.cs",
               "RelativeDocumentMoniker": "Controllers\\CityController.cs",
               "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Controllers\\CityController.cs",
               "RelativeToolTip": "Controllers\\CityController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAA9wEQAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwFIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T08:55:14.393Z",
               "EditorCaption": ""
@@ -192,14 +201,14 @@
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-12T08:50:05.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Configurations\\CityConfiguration.cs",
               "RelativeDocumentMoniker": "Configurations\\CityConfiguration.cs",
@@ -207,12 +216,11 @@
               "RelativeToolTip": "Configurations\\CityConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T08:46:33.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T08:46:33.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -220,8 +228,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-12T08:46:13.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T08:46:13.425Z"
             }
           ]
         }

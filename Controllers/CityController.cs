@@ -16,17 +16,16 @@ namespace LearningWebApi.Controllers
     {
         private readonly ICityRepository cityRepository;
         private readonly IMapper mapper;
-        private readonly ILogger<CityController> logger;
 
-        public CityController(ICityRepository cityRepository, IMapper mapper, ILogger<CityController> logger)
+
+        public CityController(ICityRepository cityRepository, IMapper mapper)
         {
             this.cityRepository = cityRepository;
             this.mapper = mapper;
-            this.logger = logger;
         }
 
         [HttpGet]
-        public async Task<ActionResult<CityResponse>> GetAllAsync()
+        public async Task<ActionResult<CityResponse>> GetAll()
         {
             var cities = await cityRepository.GetAllAsync();
 
@@ -38,8 +37,8 @@ namespace LearningWebApi.Controllers
             return Ok(mapper.Map<List<CityResponse>>(cities));
         }
 
-        [HttpGet("{id:guid}", Name = "GetByIdAsync")]
-        public async Task<ActionResult<CityResponse>> GetByIdAsync(Guid id)
+        [HttpGet("{id:guid}")]
+        public async Task<ActionResult<CityResponse>> GetById(Guid id)
         {
             City? city = await cityRepository.GetByIdAsyncRepo(id);
 
@@ -51,7 +50,7 @@ namespace LearningWebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<CityResponse>> CreateAsync(CityRequestToCreate request)
+        public async Task<ActionResult<CityResponse>> Create(CityRequestToCreate request)
         {
             if (ModelState.IsValid == false)
             {
@@ -60,18 +59,15 @@ namespace LearningWebApi.Controllers
 
             var createdCity = await cityRepository.CreateAsync(mapper.Map<City>(request));
 
-            logger.LogInformation("Created City ID: {CityId}", createdCity.Id);
-            logger.LogInformation("Generated URL: {Url}", Url.Action(nameof(GetByIdAsync), new { id = createdCity.Id }));
-
-
-            var item = CreatedAtAction(nameof(GetByIdAsync), new { id = createdCity.Id }, mapper.Map<CityResponse>(createdCity));
+            var response = mapper.Map<CityResponse>(createdCity);
+            var item = CreatedAtAction(nameof(GetById), controllerName: "City", new { id = response.Id }, response);
 
             return item;
-                
+
         }
 
         [HttpPut("{Id:guid}")]
-        public async Task<ActionResult<CityResponse>> UpdateAsync([FromRoute] Guid Id, CityRequestToUpdate cityRequest)
+        public async Task<ActionResult<CityResponse>> Update([FromRoute] Guid Id, [FromBody] CityRequestToUpdate cityRequest)
         {
             if (ModelState.IsValid == false)
             {
@@ -86,7 +82,7 @@ namespace LearningWebApi.Controllers
             return Ok(mapper.Map<CityResponse>(updatedCity));
         }
         [HttpDelete("{Id:guid}")]
-        public async Task<ActionResult<CityResponse>> DeleteAsync(Guid Id)
+        public async Task<ActionResult<CityResponse>> Delete(Guid Id)
         {
             var deletedCity = await cityRepository.DeleteAsync(Id);
             if (deletedCity == null)
