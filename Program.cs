@@ -6,6 +6,12 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddSwaggerGen();
+
+builder.Logging.AddConsole();
+
 builder.Services.AddControllers();
 
 builder.Services.AddScoped<ICityRepository, CityRepository>();
@@ -20,11 +26,16 @@ builder.Services.AddDbContext<WebApiDataBaseContext>(option =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+app.UseSwagger();
+app.UseSwaggerUI();
+
+app.UseDeveloperExceptionPage();
+
 app.UseRouting();
 
-app.MapControllers();
-
 app.UseHttpsRedirection();
+
+app.MapControllers();
 
 app.Run();
 

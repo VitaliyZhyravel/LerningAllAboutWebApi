@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ДІАНА\\Desktop\\LearningWebApi\\LearningWebApi\\LearningWebApi.csproj": {}
+    "C:\\Users\\vital\\OneDrive\\Рабочий стол\\LerningAllAboutWebApi\\LearningWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ДІАНА\\Desktop\\LearningWebApi\\LearningWebApi\\LearningWebApi.csproj": {
+    "C:\\Users\\vital\\OneDrive\\Рабочий стол\\LerningAllAboutWebApi\\LearningWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ДІАНА\\Desktop\\LearningWebApi\\LearningWebApi\\LearningWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\vital\\OneDrive\\Рабочий стол\\LerningAllAboutWebApi\\LearningWebApi.csproj",
         "projectName": "LearningWebApi",
-        "projectPath": "C:\\Users\\ДІАНА\\Desktop\\LearningWebApi\\LearningWebApi\\LearningWebApi.csproj",
-        "packagesPath": "C:\\Users\\ДІАНА\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ДІАНА\\Desktop\\LearningWebApi\\LearningWebApi\\obj\\",
+        "projectPath": "C:\\Users\\vital\\OneDrive\\Рабочий стол\\LerningAllAboutWebApi\\LearningWebApi.csproj",
+        "packagesPath": "C:\\Users\\vital\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vital\\OneDrive\\Рабочий стол\\LerningAllAboutWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ДІАНА\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vital\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,7 +39,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         }
       },
       "frameworks": {
@@ -65,6 +65,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
             }
           },
           "imports": [
@@ -78,6 +86,28 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.104, 9.0.104]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -86,7 +116,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

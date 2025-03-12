@@ -24,7 +24,7 @@ namespace LearningWebApi.Repositories
                 .ToListAsync();
         }
 
-        public async Task<City?> GetByIdAsync(Guid Id)
+        public async Task<City?> GetByIdAsyncRepo(Guid Id)
         {
             return await dbContext.Cities
                 .AsNoTracking()
@@ -35,11 +35,12 @@ namespace LearningWebApi.Repositories
         public async Task<City> CreateAsync(City city)
         {
             await dbContext.AddAsync<City>(city);
+
             await dbContext.SaveChangesAsync();
             return city;
         }
 
-        public async Task<City?> UpdateAsync(Guid id,City city )
+        public async Task<City?> UpdateAsync(Guid id, City city)
         {
             var oldCity = await dbContext.FindAsync<City>(id);
             if (oldCity == null) return null;

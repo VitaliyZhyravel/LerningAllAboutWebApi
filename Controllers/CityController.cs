@@ -16,11 +16,13 @@ namespace LearningWebApi.Controllers
     {
         private readonly ICityRepository cityRepository;
         private readonly IMapper mapper;
+        private readonly ILogger<CityController> logger;
 
-        public CityController(ICityRepository cityRepository, IMapper mapper)
+        public CityController(ICityRepository cityRepository, IMapper mapper, ILogger<CityController> logger)
         {
             this.cityRepository = cityRepository;
             this.mapper = mapper;
+            this.logger = logger;
         }
 
         [HttpGet]
@@ -36,10 +38,10 @@ namespace LearningWebApi.Controllers
             return Ok(mapper.Map<List<CityResponse>>(cities));
         }
 
-        [HttpGet("{Id:guid}")]
-        public async Task<ActionResult<CityResponse>> GetByIdAsync([FromRoute] Guid Id)
+        [HttpGet("{id:guid}", Name = "GetByIdAsync")]
+        public async Task<ActionResult<CityResponse>> GetByIdAsync(Guid id)
         {
-            City? city = await cityRepository.GetByIdAsync(Id);
+            City? city = await cityRepository.GetByIdAsyncRepo(id);
 
             if (city == null)
             {
@@ -58,7 +60,14 @@ namespace LearningWebApi.Controllers
 
             var createdCity = await cityRepository.CreateAsync(mapper.Map<City>(request));
 
-            return CreatedAtAction(nameof(GetByIdAsync), new { Id = createdCity.Id }, mapper.Map<CityResponse>(createdCity));
+            logger.LogInformation("Created City ID: {CityId}", createdCity.Id);
+            logger.LogInformation("Generated URL: {Url}", Url.Action(nameof(GetByIdAsync), new { id = createdCity.Id }));
+
+
+            var item = CreatedAtAction(nameof(GetByIdAsync), new { id = createdCity.Id }, mapper.Map<CityResponse>(createdCity));
+
+            return item;
+                
         }
 
         [HttpPut("{Id:guid}")]
@@ -69,20 +78,20 @@ namespace LearningWebApi.Controllers
                 return BadRequest(ModelState.Values);
             }
             var updatedCity = await cityRepository.UpdateAsync(Id, mapper.Map<City>(cityRequest));
-            if (updatedCity == null) 
+            if (updatedCity == null)
             {
                 return NotFound();
             }
 
             return Ok(mapper.Map<CityResponse>(updatedCity));
         }
-        [HttpDelete]
-        public async Task<ActionResult<CityResponse>> DeleteAsync(Guid Id) 
+        [HttpDelete("{Id:guid}")]
+        public async Task<ActionResult<CityResponse>> DeleteAsync(Guid Id)
         {
-          var deletedCity = await cityRepository.DeleteAsync(Id);
+            var deletedCity = await cityRepository.DeleteAsync(Id);
             if (deletedCity == null)
             {
-                return NotFound(); 
+                return NotFound();
             }
             return Ok(mapper.Map<CityResponse>(deletedCity));
         }
