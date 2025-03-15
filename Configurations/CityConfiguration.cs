@@ -1,4 +1,4 @@
-﻿using LearningWebApi.Models;
+﻿using LearningWebApi.Models.DomainModels;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

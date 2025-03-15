@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "LearningWebApi.Controllers.AcountController",
+    "Method": "Register",
+    "RelativePath": "api/Acount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerRequest",
+        "Type": "LearningWebApi.Models.DtoModels.AcountRequestToRegister",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LearningWebApi.Controllers.CityController",
     "Method": "GetAll",
     "RelativePath": "api/City",
@@ -9,7 +25,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "LearningWebApi.DtoModels.CityResponse",
+        "Type": "LearningWebApi.Models.DtoModels.CityResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,13 +45,13 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "LearningWebApi.DtoModels.CityRequestToCreate",
+        "Type": "LearningWebApi.Models.DtoModels.CityRequestToCreate",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LearningWebApi.DtoModels.CityResponse",
+        "Type": "LearningWebApi.Models.DtoModels.CityResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -61,7 +77,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "LearningWebApi.DtoModels.CityResponse",
+        "Type": "LearningWebApi.Models.DtoModels.CityResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -86,13 +102,13 @@
       },
       {
         "Name": "cityRequest",
-        "Type": "LearningWebApi.DtoModels.CityRequestToUpdate",
+        "Type": "LearningWebApi.Models.DtoModels.CityRequestToUpdate",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "LearningWebApi.DtoModels.CityResponse",
+        "Type": "LearningWebApi.Models.DtoModels.CityResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -118,7 +134,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "LearningWebApi.DtoModels.CityResponse",
+        "Type": "LearningWebApi.Models.DtoModels.CityResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",

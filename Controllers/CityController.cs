@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using LearningWebApi.Models;
 using System.Reflection.Metadata.Ecma335;
 using LearningWebApi.Repositories;
-using LearningWebApi.DtoModels;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using System.Runtime.InteropServices;
+using LearningWebApi.Models.DtoModels;
+using LearningWebApi.Models.DomainModels;
 
 namespace LearningWebApi.Controllers
 {
