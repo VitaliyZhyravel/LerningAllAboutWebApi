@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace LearningWebApi.Models
+namespace LearningWebApi.Models.DomainModels
 {
     public class City
     {

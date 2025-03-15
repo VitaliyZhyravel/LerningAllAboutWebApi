@@ -1,6 +1,9 @@
 using LearningWebApi.AutoMapperProfiles;
 using LearningWebApi.DataBaseContext;
+using LearningWebApi.Models.EntityModels;
 using LearningWebApi.Repositories;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +27,12 @@ builder.Services.AddDbContext<WebApiDataBaseContext>(option =>
 {
     option.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
+
+builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
+
+    .AddEntityFrameworkStores<WebApiDataBaseContext>()
+    .AddDefaultTokenProviders();
+   
 
 var app = builder.Build();
 

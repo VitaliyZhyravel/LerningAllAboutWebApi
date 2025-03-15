@@ -1,5 +1,4 @@
-﻿using LearningWebApi.DtoModels;
-using LearningWebApi.Models;
+﻿using LearningWebApi.Models.DomainModels;
 
 namespace LearningWebApi.Repositories
 {

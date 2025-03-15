@@ -1,12 +1,14 @@
 ﻿using LearningWebApi.Configurations;
-using LearningWebApi.Models;
+using LearningWebApi.Models.DomainModels;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using LearningWebApi.Models.EntityModels;
 
 namespace LearningWebApi.DataBaseContext;
 
-public class WebApiDataBaseContext : DbContext
+public class WebApiDataBaseContext : IdentityDbContext<ApplicationUser,ApplicationRole,Guid>
 {
-    public WebApiDataBaseContext(DbContextOptions options) : base(options) 
+    public WebApiDataBaseContext(DbContextOptions<WebApiDataBaseContext> options) : base(options) 
     {
 
     }
@@ -14,8 +16,9 @@ public class WebApiDataBaseContext : DbContext
     public DbSet<City> Cities { get; set; }
     public DbSet<Country> Counties { get; set; }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    protected override void OnModelCreating(ModelBuilder modelBuilder) 
     {
+        base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfiguration<City>(new CityConfiguration());
     }
 

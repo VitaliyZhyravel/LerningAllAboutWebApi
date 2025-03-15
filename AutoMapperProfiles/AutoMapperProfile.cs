@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
-using LearningWebApi.DtoModels;
-using LearningWebApi.Models;
+using LearningWebApi.Models.DomainModels;
+using LearningWebApi.Models.DtoModels;
+using LearningWebApi.Models.EntityModels;
+using Microsoft.AspNetCore.Identity;
 
 namespace LearningWebApi.AutoMapperProfiles
 
@@ -12,6 +14,9 @@ namespace LearningWebApi.AutoMapperProfiles
             CreateMap<City,CityResponse>().ReverseMap();
             CreateMap<CityRequestToCreate, City>().ReverseMap();
             CreateMap<CityRequestToUpdate, City>().ReverseMap();
+            CreateMap<AcountRequestToRegister, ApplicationUser>()
+                .ForMember(option => option.PersonName, option => option.MapFrom(x => x.Name))
+                .ForMember(option => option.UserName, option => option.MapFrom(x => x.Email));
         }  
     }
 }

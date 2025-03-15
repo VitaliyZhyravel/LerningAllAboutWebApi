@@ -1,9 +1,6 @@
 ﻿using LearningWebApi.DataBaseContext;
-using LearningWebApi.DtoModels;
-using LearningWebApi.Models;
+using LearningWebApi.Models.DomainModels;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Infrastructure.Internal;
-using System.ComponentModel.DataAnnotations;
 
 namespace LearningWebApi.Repositories
 {

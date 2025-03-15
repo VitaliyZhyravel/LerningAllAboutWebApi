@@ -1,7 +1,7 @@
-﻿using LearningWebApi.Models;
+﻿using LearningWebApi.Models.DomainModels;
 using System.ComponentModel.DataAnnotations;
 
-namespace LearningWebApi.DtoModels
+namespace LearningWebApi.Models.DtoModels
 {
     public class CityResponse
     {
