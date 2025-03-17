@@ -27,7 +27,7 @@ namespace LearningWebApi.Models.DtoModels
         {
             if (Password != ConfirmPassword)
             {
-              yield return new ValidationResult("Confirm password is not equel to password");
+              yield return new ValidationResult("Confirm password and password are not equal");
             }
            
         }

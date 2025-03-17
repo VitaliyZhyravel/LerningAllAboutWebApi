@@ -8392,19 +8392,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vital\\.nuget\\packages\\": {}
+    "C:\\Users\\ДІАНА\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vital\\OneDrive\\Рабочий стол\\LerningAllAboutWebApi\\LearningWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\ДІАНА\\Desktop\\LearningWebApi\\LearningWebApi\\LearningWebApi.csproj",
       "projectName": "LearningWebApi",
-      "projectPath": "C:\\Users\\vital\\OneDrive\\Рабочий стол\\LerningAllAboutWebApi\\LearningWebApi.csproj",
-      "packagesPath": "C:\\Users\\vital\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vital\\OneDrive\\Рабочий стол\\LerningAllAboutWebApi\\obj\\",
+      "projectPath": "C:\\Users\\ДІАНА\\Desktop\\LearningWebApi\\LearningWebApi\\LearningWebApi.csproj",
+      "packagesPath": "C:\\Users\\ДІАНА\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ДІАНА\\Desktop\\LearningWebApi\\LearningWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vital\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ДІАНА\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8429,7 +8429,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -8480,28 +8480,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.14, 8.0.14]"
-          },
-          {
-            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-            "version": "[9.0.104, 9.0.104]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.14, 8.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.14, 8.0.14]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.14, 8.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8510,7 +8488,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.104/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
