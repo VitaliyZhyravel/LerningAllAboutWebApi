@@ -2,6 +2,7 @@ using LearningWebApi.AutoMapperProfiles;
 using LearningWebApi.DataBaseContext;
 using LearningWebApi.Models.EntityModels;
 using LearningWebApi.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -28,11 +29,29 @@ builder.Services.AddDbContext<WebApiDataBaseContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
 
-builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
-
+builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(option => 
+{
+    option.Password.RequiredLength = 6;
+    option.Password.RequireNonAlphanumeric = true;
+    option.Password.RequireUppercase = true;
+    option.Password.RequireLowercase = true;
+    option.Password.RequireDigit = true;
+    option.Password.RequiredUniqueChars = 3;
+})
     .AddEntityFrameworkStores<WebApiDataBaseContext>()
     .AddDefaultTokenProviders();
-   
+
+//builder.Services.AddAuthorization(options => 
+//{
+//    options.FallbackPolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+//});
+
+//builder.Services.ConfigureApplicationCookie(options => 
+//{
+//    options.LoginPath = "/Acount/login";
+//});
+
+
 
 var app = builder.Build();
 
@@ -40,11 +59,13 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.UseDeveloperExceptionPage();
-
-app.UseRouting();
 
 app.UseHttpsRedirection();
+app.UseHsts();
+app.UseAuthentication();
+//app.UseAuthorization();
+
+app.UseRouting();
 
 app.MapControllers();
 
