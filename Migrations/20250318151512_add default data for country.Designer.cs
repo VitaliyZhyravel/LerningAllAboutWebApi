@@ -4,6 +4,7 @@ using LearningWebApi.DataBaseContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LearningWebApi.Migrations
 {
     [DbContext(typeof(WebApiDataBaseContext))]
-    partial class WebApiDataBaseContextModelSnapshot : ModelSnapshot
+    [Migration("20250318151512_add default data for country")]
+    partial class adddefaultdataforcountry
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -59,11 +59,7 @@ namespace LearningWebApi.Controllers
 
             var createdCity = await cityRepository.CreateAsync(mapper.Map<City>(request));
 
-            var response = mapper.Map<CityResponse>(createdCity);
-            var item = CreatedAtAction(nameof(GetById), controllerName: "City", new { id = response.Id }, response);
-
-            return item;
-
+            return CreatedAtAction(nameof(GetById), controllerName: "City", new { id = createdCity.Id }, mapper.Map<CityResponse>(createdCity));
         }
 
         [HttpPut("{Id:guid}")]

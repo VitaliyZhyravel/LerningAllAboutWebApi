@@ -1,11 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using LearningWebApi.Models.DomainModels;
+using System.ComponentModel.DataAnnotations;
 
-namespace LearningWebApi.Models.DomainModels
+namespace LearningWebApi.Models.DtoModels
 {
-    public class Country
+    public class CountryRequestToUpdate
     {
-        [Key]
-        public Guid Id { get; set; }
         [MaxLength(50)]
         public string Name { get; set; } = string.Empty;
         public int? NumberOfPeople { get; set; }
