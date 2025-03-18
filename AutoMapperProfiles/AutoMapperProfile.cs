@@ -17,6 +17,10 @@ namespace LearningWebApi.AutoMapperProfiles
             CreateMap<AcountRequestToRegister, ApplicationUser>()
                 .ForMember(option => option.PersonName, option => option.MapFrom(x => x.Name))
                 .ForMember(option => option.UserName, option => option.MapFrom(x => x.Email));
-        }  
+            CreateMap<Country, CountryResponse>().ReverseMap();
+            CreateMap<CountryRequestToUpdate, Country>().ReverseMap();
+            CreateMap<CountryRequestToCreate, Country>().ReverseMap();
+
+        }
     }
 }

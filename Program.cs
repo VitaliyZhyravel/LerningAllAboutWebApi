@@ -18,9 +18,9 @@ builder.Logging.AddConsole();
 
 builder.Services.AddControllers(option => option.SuppressAsyncSuffixInActionNames = false);
 
-builder.Services.AddControllers();
-
 builder.Services.AddScoped<ICityRepository, CityRepository>();
+
+builder.Services.AddScoped<ICountryRepository, CountryRepository>();
 
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
@@ -41,15 +41,16 @@ builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(option =>
     .AddEntityFrameworkStores<WebApiDataBaseContext>()
     .AddDefaultTokenProviders();
 
-//builder.Services.AddAuthorization(options => 
-//{
-//    options.FallbackPolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
-//});
+builder.Services.AddAuthorization(options =>
+{
+    options.FallbackPolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+});
 
-//builder.Services.ConfigureApplicationCookie(options => 
-//{
-//    options.LoginPath = "/Acount/login";
-//});
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.AccessDeniedPath = "/Account/AccessDenied";
+    options.LoginPath = "/Account/Login";
+});
 
 
 
@@ -62,10 +63,17 @@ app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 app.UseHsts();
-app.UseAuthentication();
-//app.UseAuthorization();
-
 app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.Use(async (context, next) =>
+{
+    Console.WriteLine($"Redirecting from: {context.Request.Path}");
+    await next();
+});
+
+
 
 app.MapControllers();
 

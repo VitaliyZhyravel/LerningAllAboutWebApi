@@ -39,15 +39,15 @@ namespace LearningWebApi.Repositories
 
         public async Task<City?> UpdateAsync(Guid id, City city)
         {
-            var oldCity = await dbContext.FindAsync<City>(id);
-            if (oldCity == null) return null;
+            var cityFromDb = await dbContext.FindAsync<City>(id);
+            if (cityFromDb == null) return null;
 
-            oldCity.Name = city.Name;
-            oldCity.CountryId = city.CountryId;
+            cityFromDb.Name = city.Name;
+            cityFromDb.CountryId = city.CountryId;
 
             await dbContext.SaveChangesAsync();
 
-            return oldCity;
+            return cityFromDb;
         }
 
         public async Task<City?> DeleteAsync(Guid id)

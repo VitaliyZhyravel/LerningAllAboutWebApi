@@ -584,3 +584,5 @@ C:\Users\ДІАНА\Desktop\LearningWebApi\LearningWebApi\bin\Debug\net8.0\runti
 C:\Users\ДІАНА\Desktop\LearningWebApi\LearningWebApi\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\ДІАНА\Desktop\LearningWebApi\LearningWebApi\obj\Debug\net8.0\LearningWebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ДІАНА\Desktop\LearningWebApi\LearningWebApi\obj\Debug\net8.0\LearningWebApi.sourcelink.json
+C:\Users\vital\OneDrive\Рабочий стол\LerningAllAboutWebApi\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\vital\OneDrive\Рабочий стол\LerningAllAboutWebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
