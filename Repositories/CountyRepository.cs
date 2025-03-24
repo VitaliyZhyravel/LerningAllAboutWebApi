@@ -43,8 +43,6 @@ namespace LearningWebApi.Repositories
             countryFromDb.Name = country.Name;
             countryFromDb.NumberOfPeople = country.NumberOfPeople;
             countryFromDb.Faith = country.Faith;
-          
-
 
             await dbContext.SaveChangesAsync();
 

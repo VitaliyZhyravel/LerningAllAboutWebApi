@@ -4,22 +4,23 @@ namespace LearningWebApi.Models.DtoModels
 {
     public class AcountRequestToRegister : IValidatableObject
     {
-        [Required]
+        [Required(ErrorMessage = "{0} can`t be blank")]
         public string Name { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "{0} can`t be blank")]
         [EmailAddress]
         public string Email { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "{0} can`t be blank")]
         [Phone]
         [Display(Name = "Phone namber")]
-        public string PhoneNamber{ get; set; }
+        public string PhoneNamber { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "{0} can`t be blank")]
+        [DataType(DataType.Password)]
         public string Password { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "{0} can`t be blank")]
         [Display(Name = "Confirm password")]
         public string ConfirmPassword { get; set; }
 
@@ -27,9 +28,8 @@ namespace LearningWebApi.Models.DtoModels
         {
             if (Password != ConfirmPassword)
             {
-              yield return new ValidationResult("Confirm password and password are not equal");
+                yield return new ValidationResult("Confirm password and password are not equal");
             }
-           
         }
     }
 }

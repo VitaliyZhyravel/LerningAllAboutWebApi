@@ -1,8 +1,11 @@
 ﻿using AutoMapper;
+using LearningWebApi.Enums;
 using LearningWebApi.Models.DtoModels;
 using LearningWebApi.Models.EntityModels;
+using LearningWebApi.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LearningWebApi.Controllers
@@ -15,24 +18,54 @@ namespace LearningWebApi.Controllers
         private readonly IMapper mapper;
         private readonly UserManager<ApplicationUser> userManager;
         private readonly SignInManager<ApplicationUser> signInManager;
+        private readonly IJwtToken jwtToken;
+        private readonly IConfiguration configuration;
 
-        public AccountController(IMapper mapper, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+        public AccountController(IMapper mapper, UserManager<ApplicationUser> userManager,
+            SignInManager<ApplicationUser> signInManager, IJwtToken jwtToken, IConfiguration configuration)
         {
             this.mapper = mapper;
             this.userManager = userManager;
             this.signInManager = signInManager;
+            this.jwtToken = jwtToken;
+            this.configuration = configuration;
         }
 
         [AllowAnonymous]
-        [HttpPost("registerLogika")]
+        [HttpPost("Register")]
         public async Task<IActionResult> Register(AcountRequestToRegister registerRequest)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage));
             }
+            if (await userManager.FindByEmailAsync(registerRequest.Email) != null)
+            {
+                return BadRequest("This email already exist");
+            }
+
 
             var newUser = mapper.Map<ApplicationUser>(registerRequest);
+
+            if (registerRequest.Email.Contains("Admin8624", StringComparison.OrdinalIgnoreCase))
+            {
+                IdentityResult res = await userManager.AddToRoleAsync(newUser, Roles.Admin.ToString());
+
+                if (res != null)
+                {
+                    return BadRequest("Something wrong with role");
+                }
+            }
+            else
+            {
+                IdentityResult res = await userManager.AddToRoleAsync(newUser, Roles.User.ToString());
+
+                if (res != null)
+                {
+                    return BadRequest("Something wrong with role");
+                }
+            }
+
             IdentityResult result = await userManager.CreateAsync(newUser, registerRequest.Password);
 
             if (!result.Succeeded)
@@ -40,32 +73,45 @@ namespace LearningWebApi.Controllers
                 return BadRequest(result.Errors);
             }
 
-            await signInManager.SignInAsync(newUser, isPersistent: false);
             return Ok(new { message = "User registered successfully" });
         }
 
         [AllowAnonymous]
-        [HttpPost("loginLogika")]
-        public async Task<IActionResult> Login(AcountRequestToLogin login)
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login(AcountRequestToLogin loginRequest)
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest("Incorrect email or password");
+                return BadRequest(ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage));
             }
 
-            var result = await signInManager.PasswordSignInAsync(login.Email, login.Password, isPersistent: false, lockoutOnFailure: false);
-            if (!result.Succeeded)
+            var user = await userManager.FindByEmailAsync(loginRequest.Email);
+
+            if (user != null)
             {
-                return BadRequest("Incorrect email or password");
-            }
+                var cheackPasswordResult = await userManager.CheckPasswordAsync(user, loginRequest.Password);
 
-            return Ok(new { message = "Login successful" });
+                if (cheackPasswordResult)
+                {
+                    var token = jwtToken.GenerateJwtToken(user, await userManager.GetRolesAsync(user));
+
+                    Response.Cookies.Append("JwtToken", token, new CookieOptions
+                    {
+                        HttpOnly = true,
+                        Secure = true,
+                        SameSite = SameSiteMode.Strict,
+                        Expires = DateTime.UtcNow.AddMinutes(Convert.ToDouble(configuration["Jwt:Expiration_minutes"]))
+                    });
+                }
+            }
+            return BadRequest("Incorrect password or email");
         }
 
+        [Authorize]
         [HttpPost("logout")]
         public async Task<IActionResult> Logout()
         {
-            await signInManager.SignOutAsync();
+            Response.Cookies.Delete("JwtToken");
             return Ok(new { message = "Logout successful" });
         }
     }

@@ -9,6 +9,5 @@ namespace LearningWebApi.Repositories
         Task<City> CreateAsync(City city);
         Task<City?> UpdateAsync( Guid id, City city);
         Task<City?> DeleteAsync(Guid id);
-        
     }
 }

@@ -132,6 +132,20 @@ namespace LearningWebApi.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("1afeed65-8bee-46e0-b825-8fee33bb1233"),
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        },
+                        new
+                        {
+                            Id = new Guid("1afeed65-8bee-46e0-b825-8fee33bb3200"),
+                            Name = "Admin",
+                            NormalizedName = "User"
+                        });
                 });
 
             modelBuilder.Entity("LearningWebApi.Models.EntityModels.ApplicationUser", b =>
@@ -310,7 +324,7 @@ namespace LearningWebApi.Migrations
             modelBuilder.Entity("LearningWebApi.Models.DomainModels.City", b =>
                 {
                     b.HasOne("LearningWebApi.Models.DomainModels.Country", "Country")
-                        .WithMany("Cities")
+                        .WithMany()
                         .HasForeignKey("CountryId");
 
                     b.Navigation("Country");
@@ -365,11 +379,6 @@ namespace LearningWebApi.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("LearningWebApi.Models.DomainModels.Country", b =>
-                {
-                    b.Navigation("Cities");
                 });
 #pragma warning restore 612, 618
         }
