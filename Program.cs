@@ -2,10 +2,12 @@ using LearningWebApi.AutoMapperProfiles;
 using LearningWebApi.DataBaseContext;
 using LearningWebApi.Models.EntityModels;
 using LearningWebApi.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,12 +24,31 @@ builder.Services.AddScoped<ICityRepository, CityRepository>();
 
 builder.Services.AddScoped<ICountryRepository, CountryRepository>();
 
+builder.Services.AddScoped<IJwtToken, JwtToken>();
+
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
 builder.Services.AddDbContext<WebApiDataBaseContext>(option =>
 {
     option.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        };
+    });
+
+builder.Services.AddAuthorization();
 
 builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(option => 
 {
@@ -41,42 +62,23 @@ builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(option =>
     .AddEntityFrameworkStores<WebApiDataBaseContext>()
     .AddDefaultTokenProviders();
 
-builder.Services.AddAuthorization(options =>
-{
-    options.FallbackPolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
-});
-
-builder.Services.ConfigureApplicationCookie(options =>
-{
-    options.AccessDeniedPath = "/Account/AccessDenied";
-    options.LoginPath = "/Account/Login";
-});
-
-
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 app.UseSwagger();
+
 app.UseSwaggerUI();
 
+app.UseHsts();
 
 app.UseHttpsRedirection();
-app.UseHsts();
+
 app.UseRouting();
+
 app.UseAuthentication();
+
 app.UseAuthorization();
-
-app.Use(async (context, next) =>
-{
-    Console.WriteLine($"Redirecting from: {context.Request.Path}");
-    await next();
-});
-
-
 
 app.MapControllers();
 
 app.Run();
-
-

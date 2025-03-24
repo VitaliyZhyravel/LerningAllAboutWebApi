@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "0eIXrCX0+4ubzJjPuTT+/Ltbfdg36HxRZwS5ImVdv3c=",
+  "Hash": "Xp9QA6sCYeDXUjkPxspUAPd3p5vEFiOGe0xuDF0ssi4=",
   "Source": "LearningWebApi",
   "BasePath": "_content/LearningWebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

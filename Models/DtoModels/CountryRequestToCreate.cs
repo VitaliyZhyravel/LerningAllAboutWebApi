@@ -5,10 +5,10 @@ namespace LearningWebApi.Models.DtoModels
 {
     public class CountryRequestToCreate
     {
-        [MaxLength(50)]
+        [MaxLength(50, ErrorMessage = "Max length 50 characters")]
         public string Name { get; set; } = string.Empty;
         public int? NumberOfPeople { get; set; }
-        [MaxLength(50)]
+        [MaxLength(50, ErrorMessage = "Max length 50 characters")]
         public string? Faith { get; set; } = string.Empty;
     }
 }

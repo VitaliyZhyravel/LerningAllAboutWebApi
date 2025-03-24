@@ -14,7 +14,6 @@ namespace LearningWebApi.Controllers
         private readonly ICountryRepository countryRepository;
         private readonly IMapper mapper;
 
-
         public CountryController(ICountryRepository countryRepository, IMapper mapper)
         {
             this.countryRepository = countryRepository;

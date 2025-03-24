@@ -7,9 +7,12 @@ using Microsoft.EntityFrameworkCore;
 using System.Runtime.InteropServices;
 using LearningWebApi.Models.DtoModels;
 using LearningWebApi.Models.DomainModels;
+using Microsoft.AspNetCore.Authorization;
+using LearningWebApi.Enums;
 
 namespace LearningWebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CityController : ControllerBase
