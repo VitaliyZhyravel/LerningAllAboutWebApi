@@ -47,25 +47,6 @@ namespace LearningWebApi.Controllers
 
             var newUser = mapper.Map<ApplicationUser>(registerRequest);
 
-            if (registerRequest.Email.Contains("Admin8624", StringComparison.OrdinalIgnoreCase))
-            {
-                IdentityResult res = await userManager.AddToRoleAsync(newUser, Roles.Admin.ToString());
-
-                if (res != null)
-                {
-                    return BadRequest("Something wrong with role");
-                }
-            }
-            else
-            {
-                IdentityResult res = await userManager.AddToRoleAsync(newUser, Roles.User.ToString());
-
-                if (res != null)
-                {
-                    return BadRequest("Something wrong with role");
-                }
-            }
-
             IdentityResult result = await userManager.CreateAsync(newUser, registerRequest.Password);
 
             if (!result.Succeeded)
@@ -73,7 +54,26 @@ namespace LearningWebApi.Controllers
                 return BadRequest(result.Errors);
             }
 
-            return Ok(new { message = "User registered successfully" });
+            if (registerRequest.Email.Contains("admin8624", StringComparison.OrdinalIgnoreCase))
+            {
+                IdentityResult res = await userManager.AddToRoleAsync(newUser, Roles.Admin.ToString());
+
+                if (res != null)
+                {
+                    return BadRequest("Something wrong with role 1");
+                }
+            }
+            else
+            {
+                IdentityResult res = await userManager.AddToRoleAsync(newUser, Roles.User.ToString());
+
+                if (res == null)
+                {
+                    return BadRequest("Something wrong with role 2");
+                }
+            }
+
+            return Ok(new { message = $"User: {newUser.PersonName} registered successfully" });
         }
 
         [AllowAnonymous]
@@ -95,14 +95,16 @@ namespace LearningWebApi.Controllers
                 {
                     var token = jwtToken.GenerateJwtToken(user, await userManager.GetRolesAsync(user));
 
-                    Response.Cookies.Append("JwtToken", token, new CookieOptions
+                    Response.Cookies.Append("cokies", token, new CookieOptions
                     {
                         HttpOnly = true,
                         Secure = true,
                         SameSite = SameSiteMode.Strict,
                         Expires = DateTime.UtcNow.AddMinutes(Convert.ToDouble(configuration["Jwt:Expiration_minutes"]))
                     });
+                    return Ok($"The user {user.PersonName} has successfully logged in");
                 }
+                
             }
             return BadRequest("Incorrect password or email");
         }
@@ -111,7 +113,7 @@ namespace LearningWebApi.Controllers
         [HttpPost("logout")]
         public async Task<IActionResult> Logout()
         {
-            Response.Cookies.Delete("JwtToken");
+            Response.Cookies.Delete("JwtToken"); 
             return Ok(new { message = "Logout successful" });
         }
     }

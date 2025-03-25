@@ -143,8 +143,8 @@ namespace LearningWebApi.Migrations
                         new
                         {
                             Id = new Guid("1afeed65-8bee-46e0-b825-8fee33bb3200"),
-                            Name = "Admin",
-                            NormalizedName = "User"
+                            Name = "User",
+                            NormalizedName = "USER"
                         });
                 });
 

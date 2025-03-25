@@ -1,0 +1,59 @@
+[33mcommit 84aacb304df8df8e0dc8a67e0f049d8d0e05ae04[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mFeature5_from_pc[m[33m)[m
+Author: Zhuravel Vitaliy <vitaliizhuravel.it@gmail.com>
+Date:   Wed Mar 19 00:03:05 2025 +0200
+
+    Add minimal authorization
+
+[33mcommit 1d71856b7e71a00ba8675dd03ccb08ab6848776e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: dc3f76e 83d999d
+Author: Vitaliy <169081526+VitaliyZhyravel@users.noreply.github.com>
+Date:   Mon Mar 17 16:15:11 2025 +0200
+
+    Merge pull request #2 from VitaliyZhyravel/SignIn_Cokies
+    
+    Add logout method and some configure for password
+
+[33mcommit 83d999d7d099eaeecc1116da2c279ec504edc0a5[m[33m ([m[1;31morigin/SignIn_Cokies[m[33m)[m
+Author: Zuravel Vitaliy <vitaliizhuravel.it@gmail.com>
+Date:   Mon Mar 17 16:17:31 2025 +0200
+
+    Add logout method and some configure for password
+
+[33mcommit dc3f76e413329a72c12ead5a2bb250b2672fa453[m
+Merge: 377891b 2793072
+Author: Vitaliy <169081526+VitaliyZhyravel@users.noreply.github.com>
+Date:   Sat Mar 15 22:42:43 2025 +0200
+
+    Merge pull request #1 from VitaliyZhyravel/Creating_Identity
+    
+    Creating identity(Only register method)
+
+[33mcommit 2793072b0d2122315221c7873a1ccd882fb786b2[m[33m ([m[1;31morigin/Creating_Identity[m[33m)[m
+Author: Zhuravel Vitaliy <vitaliizhuravel.it@gmail.com>
+Date:   Sat Mar 15 22:35:53 2025 +0200
+
+    Add Configure some files
+
+[33mcommit be49dfac12caec2d05177254d65538dd9f7ec530[m
+Author: Zhuravel Vitaliy <vitaliizhuravel.it@gmail.com>
+Date:   Sat Mar 15 22:17:18 2025 +0200
+
+    Add minimal register
+
+[33mcommit 377891b0e4f19766c46e799fa3aa53808c144861[m
+Author: Zhuravel Vitaliy <vitaliizhuravel.it@gmail.com>
+Date:   Wed Mar 12 23:05:41 2025 +0200
+
+    Fixing errors related to the async suffix
+
+[33mcommit 0979b6f2a73f4d0ebe0988e699324d9fda9f5ecd[m
+Author: Zhuravel Vitaliy <vitaliizhuravel.it@gmail.com>
+Date:   Wed Mar 12 15:44:05 2025 +0200
+
+    Add swager
+
+[33mcommit f302f98c1755f38a9dd06fc805da838d9f0b74d4[m
+Author: Zuravel Vitaliy <vitaliizhuravel.it@gmail.com>
+Date:   Wed Mar 12 10:35:44 2025 +0200
+
+    Initialisation and created CRUD operations

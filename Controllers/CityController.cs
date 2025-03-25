@@ -9,10 +9,11 @@ using LearningWebApi.Models.DtoModels;
 using LearningWebApi.Models.DomainModels;
 using Microsoft.AspNetCore.Authorization;
 using LearningWebApi.Enums;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace LearningWebApi.Controllers
 {
-    [Authorize]
+    
     [Route("api/[controller]")]
     [ApiController]
     public class CityController : ControllerBase
@@ -40,6 +41,7 @@ namespace LearningWebApi.Controllers
             return Ok(mapper.Map<List<CityResponse>>(cities));
         }
 
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
         [HttpGet("{id:guid}")]
         public async Task<ActionResult<CityResponse>> GetById(Guid id)
         {

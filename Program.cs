@@ -18,7 +18,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Logging.AddConsole();
 
-builder.Services.AddControllers(option => option.SuppressAsyncSuffixInActionNames = false);
+builder.Services.AddControllers(option => option.SuppressAsyncSuffixInActionNames = true);
 
 builder.Services.AddScoped<ICityRepository, CityRepository>();
 
@@ -33,7 +33,7 @@ builder.Services.AddDbContext<WebApiDataBaseContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
 
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+builder.Services.AddAuthentication()
     .AddJwtBearer(options =>
     {
         options.TokenValidationParameters = new TokenValidationParameters
@@ -46,11 +46,22 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidAudience = builder.Configuration["Jwt:Audience"],
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
         };
+        options.Events = new JwtBearerEvents
+        {
+            OnMessageReceived = context =>
+            {
+                context.Token = context.Request.Cookies["cokies"];
+             
+                return Task.CompletedTask;
+            }
+
+        };
+
     });
 
 builder.Services.AddAuthorization();
 
-builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(option => 
+builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(option =>
 {
     option.Password.RequiredLength = 6;
     option.Password.RequireNonAlphanumeric = true;
@@ -82,3 +93,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+//DESKTOP-710MH0F
+//LAPTOP-38CA3JVD
