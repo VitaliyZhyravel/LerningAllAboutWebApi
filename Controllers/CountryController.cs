@@ -1,9 +1,8 @@
 ﻿using AutoMapper;
+using LearningWebApi.CustomAttributes;
 using LearningWebApi.Models.DomainModels;
 using LearningWebApi.Models.DtoModels;
 using LearningWebApi.Repositories;
-using Microsoft.AspNetCore.Authorization;
-
 using Microsoft.AspNetCore.Mvc;
 
 namespace LearningWebApi.Controllers
@@ -21,6 +20,7 @@ namespace LearningWebApi.Controllers
             this.mapper = mapper;
         }
 
+        [AuthorizeWithBearerScheme(Roles = "User,Admin")]
         [HttpGet]
         public async Task<ActionResult<CountryResponse>> GetAll()
         {
@@ -34,6 +34,7 @@ namespace LearningWebApi.Controllers
             return Ok(mapper.Map<List<CountryResponse>>(country));
         }
 
+        [AuthorizeWithBearerScheme(Roles = "User,Admin")]
         [HttpGet("{id:guid}")]
         public async Task<ActionResult<CountryResponse>> GetById(Guid id)
         {
@@ -46,26 +47,19 @@ namespace LearningWebApi.Controllers
             return Ok(mapper.Map<CountryResponse>(country));
         }
 
+        [AuthorizeWithBearerScheme(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult<CountryResponse>> Create(CountryRequestToCreate request)
         {
-            if (ModelState.IsValid == false)
-            {
-                return BadRequest(ModelState);
-            }
-
             var createdCountry = await countryRepository.CreateAsync(mapper.Map<Country>(request));
 
             return CreatedAtAction(nameof(GetById), controllerName: "Country", new { id = createdCountry.Id }, mapper.Map<CountryResponse>(createdCountry));
         }
 
+        [AuthorizeWithBearerScheme(Roles = "Admin")]
         [HttpPut("{Id:guid}")]
         public async Task<ActionResult<CountryResponse>> Update([FromRoute] Guid Id, [FromBody] CountryRequestToUpdate countryRequest)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(string.Join(Environment.NewLine, ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage)));
-            }
             var updatedCountry = await countryRepository.UpdateAsync(Id, mapper.Map<Country>(countryRequest));
             if (updatedCountry == null)
             {
@@ -74,6 +68,8 @@ namespace LearningWebApi.Controllers
 
             return Ok(mapper.Map<CountryResponse>(updatedCountry));
         }
+
+        [AuthorizeWithBearerScheme(Roles = "Admin")]
         [HttpDelete("{Id:guid}")]
         public async Task<ActionResult<CountryResponse>> Delete(Guid Id)
         {

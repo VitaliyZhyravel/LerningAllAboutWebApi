@@ -13,7 +13,7 @@ namespace LearningWebApi.Migrations
 {
     [DbContext(typeof(WebApiDataBaseContext))]
     [Migration("20250324191143_none")]
-    partial class none
+    partial class UpdateUserRole
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -1,5 +1,6 @@
 ﻿using LearningWebApi.DataBaseContext;
 using LearningWebApi.Models.DomainModels;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 
 namespace LearningWebApi.Repositories
@@ -13,12 +14,32 @@ namespace LearningWebApi.Repositories
             this.dbContext = dbContext;
         }
 
-        public async Task<IEnumerable<City?>> GetAllAsync()
+        public async Task<IEnumerable<City?>> GetAllAsync(string? filterOn, string? filterBy,
+            string? sortBy, bool isAsending,
+            int namberOfPage, int pageSize)
         {
-            return await dbContext.Cities
-                .AsNoTracking()
-                .Include(c => c.Country)
-                .ToListAsync();
+            var cities = await dbContext.Cities
+                  .AsNoTracking()
+                  .Include(c => c.Country)
+                  .ToListAsync();
+
+            if (!string.IsNullOrWhiteSpace(filterOn) && !string.IsNullOrWhiteSpace(filterBy))
+            {
+                if (filterOn.Equals(nameof(City.Name), StringComparison.OrdinalIgnoreCase))
+                {
+                    cities = cities.Where(x => x.Name.Contains(filterBy,StringComparison.OrdinalIgnoreCase)).ToList();
+                }
+            }
+
+            if (!string.IsNullOrWhiteSpace(sortBy))
+            {
+                if (sortBy.Equals(nameof(City.Name), StringComparison.OrdinalIgnoreCase))
+                {
+                    cities = isAsending ? cities.OrderBy(x => x.Name).ToList() : cities.OrderByDescending(x => x.Name).ToList();
+                }
+            }
+
+            return cities.Skip((namberOfPage - 1) * pageSize).Take(pageSize);
         }
 
         public async Task<City?> GetByIdAsyncRepo(Guid Id)

@@ -1,18 +1,19 @@
 ﻿using AutoMapper;
+using LearningWebApi.CustomAttributes;
 using LearningWebApi.Enums;
+using LearningWebApi.Filters;
 using LearningWebApi.Models.DtoModels;
 using LearningWebApi.Models.EntityModels;
 using LearningWebApi.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LearningWebApi.Controllers
 {
-    [AllowAnonymous]
     [Route("api/Account")]
     [ApiController]
+    [TypeFilter(typeof(ExeptionFilterForCityController))]
     public class AccountController : ControllerBase
     {
         private readonly IMapper mapper;
@@ -35,15 +36,10 @@ namespace LearningWebApi.Controllers
         [HttpPost("Register")]
         public async Task<IActionResult> Register(AcountRequestToRegister registerRequest)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage));
-            }
             if (await userManager.FindByEmailAsync(registerRequest.Email) != null)
             {
                 return BadRequest("This email already exist");
             }
-
 
             var newUser = mapper.Map<ApplicationUser>(registerRequest);
 
@@ -56,20 +52,20 @@ namespace LearningWebApi.Controllers
 
             if (registerRequest.Email.Contains("admin8624", StringComparison.OrdinalIgnoreCase))
             {
-                IdentityResult res = await userManager.AddToRoleAsync(newUser, Roles.Admin.ToString());
+                IdentityResult resultOfAddingRole = await userManager.AddToRoleAsync(newUser, Roles.Admin.ToString());
 
-                if (res != null)
+                if (!resultOfAddingRole.Succeeded)
                 {
-                    return BadRequest("Something wrong with role 1");
+                    return BadRequest(new { resultOfAddingRole.Errors });
                 }
             }
             else
             {
-                IdentityResult res = await userManager.AddToRoleAsync(newUser, Roles.User.ToString());
+                IdentityResult resultOfAddingRole = await userManager.AddToRoleAsync(newUser, Roles.User.ToString());
 
-                if (res == null)
+                if (!resultOfAddingRole.Succeeded)
                 {
-                    return BadRequest("Something wrong with role 2");
+                    return BadRequest(resultOfAddingRole.Errors);
                 }
             }
 
@@ -80,11 +76,6 @@ namespace LearningWebApi.Controllers
         [HttpPost("Login")]
         public async Task<IActionResult> Login(AcountRequestToLogin loginRequest)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage));
-            }
-
             var user = await userManager.FindByEmailAsync(loginRequest.Email);
 
             if (user != null)
@@ -95,7 +86,7 @@ namespace LearningWebApi.Controllers
                 {
                     var token = jwtToken.GenerateJwtToken(user, await userManager.GetRolesAsync(user));
 
-                    Response.Cookies.Append("cokies", token, new CookieOptions
+                    Response.Cookies.Append("Some-Token", token, new CookieOptions
                     {
                         HttpOnly = true,
                         Secure = true,
@@ -104,17 +95,16 @@ namespace LearningWebApi.Controllers
                     });
                     return Ok($"The user {user.PersonName} has successfully logged in");
                 }
-                
             }
             return BadRequest("Incorrect password or email");
         }
 
-        [Authorize]
-        [HttpPost("logout")]
+        [AuthorizeWithBearerScheme]
+        [HttpPost("Logout")]
         public async Task<IActionResult> Logout()
         {
-            Response.Cookies.Delete("JwtToken"); 
-            return Ok(new { message = "Logout successful" });
+            Response.Cookies.Delete("Some-Token"); 
+            return Task.FromResult( Ok(new { message = "Logout successful" })).Result;
         }
     }
 

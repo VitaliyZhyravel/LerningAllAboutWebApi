@@ -19,11 +19,13 @@ namespace LearningWebApi.Repositories
         {
             var claims = new List<Claim>
             {
-                new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
-                new Claim(ClaimTypes.NameIdentifier, user.Email),
-                new Claim(ClaimTypes.NameIdentifier, user.PersonName)
+                new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()), // Унікальний ідентифікатор
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()), // Унікальний токен
+                new Claim(JwtRegisteredClaimNames.Iat,
+                new DateTimeOffset(DateTime.UtcNow).ToUnixTimeSeconds().ToString(),ClaimValueTypes.Integer64), // Коректний формат
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()), // Ідентифікатор користувача
+                new Claim(ClaimTypes.Email, user.Email), // Email
+                new Claim(ClaimTypes.GivenName, user.PersonName) // Ім'я
             };
             foreach (var role in roles)
             {

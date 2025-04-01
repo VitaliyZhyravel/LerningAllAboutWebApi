@@ -1,21 +1,17 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.Reflection.Metadata.Ecma335;
+﻿using Microsoft.AspNetCore.Mvc;
 using LearningWebApi.Repositories;
 using AutoMapper;
-using Microsoft.EntityFrameworkCore;
-using System.Runtime.InteropServices;
 using LearningWebApi.Models.DtoModels;
 using LearningWebApi.Models.DomainModels;
-using Microsoft.AspNetCore.Authorization;
-using LearningWebApi.Enums;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+using LearningWebApi.CustomAttributes;
+using LearningWebApi.Filters;
 
 namespace LearningWebApi.Controllers
 {
-    
+
     [Route("api/[controller]")]
     [ApiController]
+    [TypeFilter(typeof(ExeptionFilterForCityController))]
     public class CityController : ControllerBase
     {
         private readonly ICityRepository cityRepository;
@@ -28,10 +24,14 @@ namespace LearningWebApi.Controllers
             this.mapper = mapper;
         }
 
+        [TypeFilter(typeof(ActionFilterForCity))]
+        [AuthorizeWithBearerScheme(Roles = "Admin,User")]
         [HttpGet]
-        public async Task<ActionResult<CityResponse>> GetAll()
+        public async Task<ActionResult<CityResponse>> GetAll([FromQuery] string? filterOn = null, [FromQuery] string? filterBy = null,
+            [FromQuery] string? sortBy = null, [FromQuery] bool isAsending = true,
+            [FromQuery] int namberOfPage = 1, [FromQuery] int pageSize = 1000)
         {
-            var cities = await cityRepository.GetAllAsync();
+            var cities = await cityRepository.GetAllAsync(filterOn, filterBy,sortBy,isAsending,namberOfPage,pageSize);
 
             if (cities == null)
             {
@@ -41,7 +41,7 @@ namespace LearningWebApi.Controllers
             return Ok(mapper.Map<List<CityResponse>>(cities));
         }
 
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
+        [AuthorizeWithBearerScheme(Roles = "Admin,User")]
         [HttpGet("{id:guid}")]
         public async Task<ActionResult<CityResponse>> GetById(Guid id)
         {
@@ -54,26 +54,19 @@ namespace LearningWebApi.Controllers
             return Ok(mapper.Map<CityResponse>(city));
         }
 
+        [AuthorizeWithBearerScheme(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult<CityResponse>> Create(CityRequestToCreate request)
         {
-            if (ModelState.IsValid == false)
-            {
-                return BadRequest(ModelState);
-            }
-
             var createdCity = await cityRepository.CreateAsync(mapper.Map<City>(request));
 
             return CreatedAtAction(nameof(GetById), controllerName: "City", new { id = createdCity.Id }, mapper.Map<CityResponse>(createdCity));
         }
 
+        [AuthorizeWithBearerScheme(Roles = "Admin")]
         [HttpPut("{Id:guid}")]
         public async Task<ActionResult<CityResponse>> Update([FromRoute] Guid Id, [FromBody] CityRequestToUpdate cityRequest)
         {
-            if (ModelState.IsValid == false)
-            {
-                return BadRequest(ModelState.Values);
-            }
             var updatedCity = await cityRepository.UpdateAsync(Id, mapper.Map<City>(cityRequest));
             if (updatedCity == null)
             {
@@ -82,6 +75,8 @@ namespace LearningWebApi.Controllers
 
             return Ok(mapper.Map<CityResponse>(updatedCity));
         }
+
+        [AuthorizeWithBearerScheme(Roles = "Admin")]
         [HttpDelete("{Id:guid}")]
         public async Task<ActionResult<CityResponse>> Delete(Guid Id)
         {

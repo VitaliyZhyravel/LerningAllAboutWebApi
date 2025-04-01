@@ -1,3 +1,4 @@
+using LearningWebApi;
 using LearningWebApi.AutoMapperProfiles;
 using LearningWebApi.DataBaseContext;
 using LearningWebApi.Models.EntityModels;
@@ -38,10 +39,10 @@ builder.Services.AddAuthentication()
     {
         options.TokenValidationParameters = new TokenValidationParameters
         {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateLifetime = false,
+            ValidateIssuerSigningKey = false,
             ValidIssuer = builder.Configuration["Jwt:Issuer"],
             ValidAudience = builder.Configuration["Jwt:Audience"],
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
@@ -50,11 +51,10 @@ builder.Services.AddAuthentication()
         {
             OnMessageReceived = context =>
             {
-                context.Token = context.Request.Cookies["cokies"];
-             
+                context.Token = context.Request.Cookies["Some-Token"];
+
                 return Task.CompletedTask;
             }
-
         };
 
     });
@@ -93,6 +93,8 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
 
 //DESKTOP-710MH0F
 //LAPTOP-38CA3JVD

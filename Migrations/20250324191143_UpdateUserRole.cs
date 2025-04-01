@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace LearningWebApi.Migrations
 {
     /// <inheritdoc />
-    public partial class none : Migration
+    public partial class UpdateUserRole : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

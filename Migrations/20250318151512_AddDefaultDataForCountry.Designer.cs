@@ -13,7 +13,7 @@ namespace LearningWebApi.Migrations
 {
     [DbContext(typeof(WebApiDataBaseContext))]
     [Migration("20250318151512_add default data for country")]
-    partial class adddefaultdataforcountry
+    partial class AddDefaultDataForCountry
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
