@@ -5,16 +5,20 @@ namespace LearningWebApi.Filters
 {
     public class ExeptionFilterForCityController : IExceptionFilter
     {
-        private readonly IHostEnvironment environment;
+        private readonly IHostEnvironment _environment;
+        private readonly ILogger<ExeptionFilterForCityController> _logger;
 
-        public ExeptionFilterForCityController(IHostEnvironment environment)
+        public ExeptionFilterForCityController(IHostEnvironment environment,ILogger<ExeptionFilterForCityController> logger)
         {
-            this.environment = environment;
+            _environment = environment;
+            _logger = logger;
         }
 
         public void OnException(ExceptionContext context)
         {
-            if (environment.IsDevelopment()) 
+            _logger.LogInformation("End {NameFilter}", nameof(ExeptionFilterForCityController));
+
+            if (_environment.IsDevelopment()) 
             {
                 var response = new
                 {

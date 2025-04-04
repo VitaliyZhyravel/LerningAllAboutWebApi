@@ -3,7 +3,11 @@ using LearningWebApi.CustomAttributes;
 using LearningWebApi.Models.DomainModels;
 using LearningWebApi.Models.DtoModels;
 using LearningWebApi.Repositories;
+using LearningWebApi.RepositoriesCQRS.Countries.Commands;
+using LearningWebApi.RepositoriesCQRS.Countries.Queries;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using System.Runtime.InteropServices;
 
 namespace LearningWebApi.Controllers
 {
@@ -11,74 +15,47 @@ namespace LearningWebApi.Controllers
     [ApiController]
     public class CountryController : ControllerBase
     {
-        private readonly ICountryRepository countryRepository;
-        private readonly IMapper mapper;
+        private readonly IMediator mediator;
 
-        public CountryController(ICountryRepository countryRepository, IMapper mapper)
+        public CountryController(IMediator mediator)
         {
-            this.countryRepository = countryRepository;
-            this.mapper = mapper;
+            this.mediator = mediator;
         }
 
         [AuthorizeWithBearerScheme(Roles = "User,Admin")]
         [HttpGet]
         public async Task<ActionResult<CountryResponse>> GetAll()
         {
-            var country = await countryRepository.GetAllAsync();
-
-            if (country == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(mapper.Map<List<CountryResponse>>(country));
+            return Ok(await mediator.Send(new CountryGetAllQuery()));
         }
 
         [AuthorizeWithBearerScheme(Roles = "User,Admin")]
         [HttpGet("{id:guid}")]
         public async Task<ActionResult<CountryResponse>> GetById(Guid id)
         {
-            Country? country = await countryRepository.GetByIdAsync(id);
-
-            if (country == null)
-            {
-                return NotFound();
-            }
-            return Ok(mapper.Map<CountryResponse>(country));
+            return Ok(await mediator.Send(new CountryGetByIdQuery(id)));
         }
 
         [AuthorizeWithBearerScheme(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult<CountryResponse>> Create(CountryRequestToCreate request)
         {
-            var createdCountry = await countryRepository.CreateAsync(mapper.Map<Country>(request));
-
-            return CreatedAtAction(nameof(GetById), controllerName: "Country", new { id = createdCountry.Id }, mapper.Map<CountryResponse>(createdCountry));
+            var createdCountry = await mediator.Send(new CountryCreateCommand(request));
+            return CreatedAtAction(nameof(GetById), new { id = createdCountry.Id }, createdCountry);
         }
 
         [AuthorizeWithBearerScheme(Roles = "Admin")]
         [HttpPut("{Id:guid}")]
-        public async Task<ActionResult<CountryResponse>> Update([FromRoute] Guid Id, [FromBody] CountryRequestToUpdate countryRequest)
+        public async Task<ActionResult<CountryResponse>> Update([FromRoute] Guid Id, [FromBody] CountryRequestToUpdate request)
         {
-            var updatedCountry = await countryRepository.UpdateAsync(Id, mapper.Map<Country>(countryRequest));
-            if (updatedCountry == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(mapper.Map<CountryResponse>(updatedCountry));
+            return Ok(await mediator.Send(new CountryUpdateCommand(Id, request)));
         }
 
         [AuthorizeWithBearerScheme(Roles = "Admin")]
         [HttpDelete("{Id:guid}")]
-        public async Task<ActionResult<CountryResponse>> Delete(Guid Id)
+        public async Task<ActionResult<CountryResponse>> Delete(Guid id)
         {
-            var deletedCountry = await countryRepository.DeleteAsync(Id);
-            if (deletedCountry == null)
-            {
-                return NotFound();
-            }
-            return Ok(mapper.Map<CountryResponse>(deletedCountry));
+            return Ok(await mediator.Send(new CountryDeleteCommand(id)));
         }
     }
 }

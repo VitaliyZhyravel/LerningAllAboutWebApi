@@ -287,7 +287,7 @@
         "IsRequired": true
       },
       {
-        "Name": "countryRequest",
+        "Name": "request",
         "Type": "LearningWebApi.Models.DtoModels.CountryRequestToUpdate",
         "IsRequired": true
       }
@@ -313,7 +313,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
+        "Name": "id",
         "Type": "System.Guid",
         "IsRequired": true
       }

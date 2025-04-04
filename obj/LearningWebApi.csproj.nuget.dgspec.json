@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vital\\OneDrive\\Рабочий стол\\LerningAllAboutWebApi\\LearningWebApi.csproj": {}
+    "C:\\Users\\ДІАНА\\Desktop\\LerningAllAboutWebApi\\LearningWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vital\\OneDrive\\Рабочий стол\\LerningAllAboutWebApi\\LearningWebApi.csproj": {
+    "C:\\Users\\ДІАНА\\Desktop\\LerningAllAboutWebApi\\LearningWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vital\\OneDrive\\Рабочий стол\\LerningAllAboutWebApi\\LearningWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\ДІАНА\\Desktop\\LerningAllAboutWebApi\\LearningWebApi.csproj",
         "projectName": "LearningWebApi",
-        "projectPath": "C:\\Users\\vital\\OneDrive\\Рабочий стол\\LerningAllAboutWebApi\\LearningWebApi.csproj",
-        "packagesPath": "C:\\Users\\vital\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vital\\OneDrive\\Рабочий стол\\LerningAllAboutWebApi\\obj\\",
+        "projectPath": "C:\\Users\\ДІАНА\\Desktop\\LerningAllAboutWebApi\\LearningWebApi.csproj",
+        "packagesPath": "C:\\Users\\ДІАНА\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ДІАНА\\Desktop\\LerningAllAboutWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vital\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ДІАНА\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -53,6 +53,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[14.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -106,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

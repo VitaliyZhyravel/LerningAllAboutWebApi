@@ -1,196 +1,296 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\repositories\\jwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositories\\jwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\filters\\exeptionfilterforcitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:filters\\exeptionfilterforcitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\countries\\queries\\countrygetallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\countries\\queries\\countrygetallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\databasecontext\\webapidatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:databasecontext\\webapidatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\repositories\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositories\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\filters\\actionfilterforcity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:filters\\actionfilterforcity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\models\\dtomodels\\acountrequesttologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\dtomodels\\acountrequesttologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\repositories\\countyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositories\\countyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\countries\\commands\\countrydeletecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\countries\\commands\\countrydeletecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\repositories\\icityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositories\\icityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\countries\\commands\\countryupdatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\countries\\commands\\countryupdatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\repositories\\ijwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositories\\ijwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\countries\\commands\\countryupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\countries\\commands\\countryupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\models\\dtomodels\\cityrequesttocreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\dtomodels\\cityrequesttocreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\countries\\commands\\countrydeletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\countries\\commands\\countrydeletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\customattributes\\authorizewithbearerscheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:customattributes\\authorizewithbearerscheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\models\\dtomodels\\countryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\dtomodels\\countryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\models\\dtomodels\\cityrequesttoupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\dtomodels\\cityrequesttoupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\models\\dtomodels\\countryrequesttoupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\dtomodels\\countryrequesttoupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\learningwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:learningwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\cities\\commands\\updatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\cities\\commands\\updatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\models\\domainmodels\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\cities\\commands\\updatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\cities\\commands\\updatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\countries\\commands\\countrycreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\countries\\commands\\countrycreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\countries\\commands\\countrycreatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\countries\\commands\\countrycreatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\cities\\commands\\createcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\cities\\commands\\createcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\countries\\queries\\countrygetallqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\countries\\queries\\countrygetallqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\countries\\queries\\countrygetbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\countries\\queries\\countrygetbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\countries\\queries\\countrygetbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\countries\\queries\\countrygetbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\models\\domainmodels\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\domainmodels\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\models\\dtomodels\\cityresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\cities\\commands\\deletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\cities\\commands\\deletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\cities\\commands\\createcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\cities\\commands\\createcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\cities\\queries\\getallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\cities\\queries\\getallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\cities\\queries\\getallqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\cities\\queries\\getallqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\cities\\queries\\getbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\cities\\queries\\getbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\cities\\queries\\getbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\cities\\queries\\getbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositoriescqrs\\cities\\commands\\deletecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositoriescqrs\\cities\\commands\\deletecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\migrations\\20250322154517_add roles to identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:migrations\\20250322154517_add roles to identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\migrations\\webapidatabasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:migrations\\webapidatabasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\models\\dtomodels\\cityresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\dtomodels\\cityresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositories\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositories\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositories\\icityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositories\\icityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\services\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:services\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\filters\\exeptionfilterforcitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:filters\\exeptionfilterforcitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\filters\\actionfilterforcity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:filters\\actionfilterforcity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\databasecontext\\webapidatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:databasecontext\\webapidatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\middlewares\\exeptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:middlewares\\exeptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\automapperprofiles\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:automapperprofiles\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\learningwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:learningwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositories\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositories\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\models\\dtomodels\\cityrequesttocreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\dtomodels\\cityrequesttocreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\clear||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:clear||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositories\\jwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositories\\jwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositories\\ijwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositories\\ijwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\repositories\\countyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositories\\countyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\learningwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:learningwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\configurations\\countryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:configurations\\countryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\configurations\\cityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:configurations\\cityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\customattributes\\authorizewithbearerscheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:customattributes\\authorizewithbearerscheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vital\\AppData\\Local\\SourceServer\\c0029b758488187f4784eafae539752c229de231b116cf943af2a7cdea2a4c09\\Repositories\\CityRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\models\\dtomodels\\countryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\dtomodels\\countryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\models\\dtomodels\\countryrequesttoupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\dtomodels\\countryrequesttoupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\models\\dtomodels\\countryrequesttocreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\models\\dtomodels\\countryrequesttocreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\dtomodels\\countryrequesttocreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\models\\dtomodels\\acountrequesttologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\dtomodels\\acountrequesttologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.104\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\migrations\\20250318151512_adddefaultdataforcountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\migrations\\20250318151512_adddefaultdataforcountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:migrations\\20250318151512_adddefaultdataforcountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\migrations\\20250322154517_add roles to identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:migrations\\20250322154517_add roles to identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\migrations\\20250318151512_adddefaultdataforcountry.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\migrations\\20250318151512_adddefaultdataforcountry.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:migrations\\20250318151512_adddefaultdataforcountry.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\migrations\\20250324191143_updateuserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\migrations\\20250324191143_updateuserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:migrations\\20250324191143_updateuserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\learningwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:learningwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vital\\AppData\\Local\\SourceServer\\7e6940256d6209d0c04566e59b38f5229ae8a83c224f9f0a769d15cf3d861119\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\learningwebapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\learningwebapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:learningwebapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\automapperprofiles\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:automapperprofiles\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vital\\AppData\\Local\\SourceServer\\5905e5e861716989d7a03de3ad9b5afb92dcdd2e4d96dc6c84310a6b16de850d\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\migrations\\webapidatabasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:migrations\\webapidatabasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\models\\domainmodels\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\models\\domainmodels\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\domainmodels\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\configurations\\countryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:configurations\\countryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\configurations\\cityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:configurations\\cityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\repositories\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:repositories\\icountryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\migrations\\20250317152659_rename country table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\migrations\\20250317152659_rename country table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:migrations\\20250317152659_rename country table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\models\\dtomodels\\cityrequesttoupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\dtomodels\\cityrequesttoupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\models\\dtomodels\\acountrequesttoregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\models\\dtomodels\\acountrequesttoregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\dtomodels\\acountrequesttoregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\models\\entitymodels\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\models\\entitymodels\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\entitymodels\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\migrations\\20250310191717_initialisation and created crud operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\migrations\\20250310191717_initialisation and created crud operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:migrations\\20250310191717_initialisation and created crud operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\models\\entitymodels\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\models\\entitymodels\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:models\\entitymodels\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vital\\AppData\\Local\\SourceServer\\e25d2c208a713e835d4b530ad1d2d76bd6e99fa5ddc588f9082256ab7a76b3a2\\Controllers\\CityController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\vital\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\lerningallaboutwebapi\\migrations\\20250315105222_add identity tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|c:\\users\\\u0434\u0456\u0430\u043D\u0430\\desktop\\lerningallaboutwebapi\\migrations\\20250315105222_add identity tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D404EEF5-2B24-4A87-87EB-31C57C4245DA}|LearningWebApi.csproj|solutionrelative:migrations\\20250315105222_add identity tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -201,7 +301,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -209,91 +309,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthorizeWithBearerScheme.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\CustomAttributes\\AuthorizeWithBearerScheme.cs",
-              "RelativeDocumentMoniker": "CustomAttributes\\AuthorizeWithBearerScheme.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\CustomAttributes\\AuthorizeWithBearerScheme.cs",
-              "RelativeToolTip": "CustomAttributes\\AuthorizeWithBearerScheme.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T10:24:50.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WebApiDataBaseContext.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\DataBaseContext\\WebApiDataBaseContext.cs",
-              "RelativeDocumentMoniker": "DataBaseContext\\WebApiDataBaseContext.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\DataBaseContext\\WebApiDataBaseContext.cs",
-              "RelativeToolTip": "DataBaseContext\\WebApiDataBaseContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T09:19:45.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-12T08:46:13.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwEsAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T10:57:56.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExeptionFilterForCityController.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Filters\\ExeptionFilterForCityController.cs",
-              "RelativeDocumentMoniker": "Filters\\ExeptionFilterForCityController.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Filters\\ExeptionFilterForCityController.cs",
-              "RelativeToolTip": "Filters\\ExeptionFilterForCityController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AcountRequestToLogin.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DtoModels\\AcountRequestToLogin.cs",
+              "RelativeDocumentMoniker": "Models\\DtoModels\\AcountRequestToLogin.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DtoModels\\AcountRequestToLogin.cs",
+              "RelativeToolTip": "Models\\DtoModels\\AcountRequestToLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T16:22:17.557Z",
+              "WhenOpened": "2025-03-27T10:09:31.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CityController.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Controllers\\CityController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Controllers\\CityController.cs",
               "RelativeDocumentMoniker": "Controllers\\CityController.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Controllers\\CityController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Controllers\\CityController.cs",
               "RelativeToolTip": "Controllers\\CityController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACEAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T08:55:14.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "CountryController.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Controllers\\CountryController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Controllers\\CountryController.cs",
               "RelativeDocumentMoniker": "Controllers\\CountryController.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Controllers\\CountryController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Controllers\\CountryController.cs",
               "RelativeToolTip": "Controllers\\CountryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T14:39:02.095Z",
               "EditorCaption": ""
@@ -301,100 +362,387 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "JwtToken.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Repositories\\JwtToken.cs",
-              "RelativeDocumentMoniker": "Repositories\\JwtToken.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Repositories\\JwtToken.cs",
-              "RelativeToolTip": "Repositories\\JwtToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Title": "CountryGetAllQuery.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Queries\\CountryGetAllQuery.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Countries\\Queries\\CountryGetAllQuery.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Queries\\CountryGetAllQuery.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Countries\\Queries\\CountryGetAllQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T23:51:46.34Z",
+              "WhenOpened": "2025-04-04T07:36:31.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "CountryUpdateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Commands\\CountryUpdateCommand.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Countries\\Commands\\CountryUpdateCommand.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Commands\\CountryUpdateCommand.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Countries\\Commands\\CountryUpdateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T09:59:37.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CountryUpdateCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Commands\\CountryUpdateCommandHandler.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Countries\\Commands\\CountryUpdateCommandHandler.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Commands\\CountryUpdateCommandHandler.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Countries\\Commands\\CountryUpdateCommandHandler.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAB8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T10:03:55.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CountryDeleteCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Commands\\CountryDeleteCommandHandler.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Countries\\Commands\\CountryDeleteCommandHandler.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Commands\\CountryDeleteCommandHandler.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Countries\\Commands\\CountryDeleteCommandHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T10:17:44.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CountryDeleteCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Commands\\CountryDeleteCommand.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Countries\\Commands\\CountryDeleteCommand.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Commands\\CountryDeleteCommand.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Countries\\Commands\\CountryDeleteCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T10:16:33.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CountryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DtoModels\\CountryResponse.cs",
+              "RelativeDocumentMoniker": "Models\\DtoModels\\CountryResponse.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DtoModels\\CountryResponse.cs",
+              "RelativeToolTip": "Models\\DtoModels\\CountryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T15:01:20.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CityRequestToUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DtoModels\\CityRequestToUpdate.cs",
+              "RelativeDocumentMoniker": "Models\\DtoModels\\CityRequestToUpdate.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DtoModels\\CityRequestToUpdate.cs",
+              "RelativeToolTip": "Models\\DtoModels\\CityRequestToUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:50:51.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CountryRequestToUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DtoModels\\CountryRequestToUpdate.cs",
+              "RelativeDocumentMoniker": "Models\\DtoModels\\CountryRequestToUpdate.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DtoModels\\CountryRequestToUpdate.cs",
+              "RelativeToolTip": "Models\\DtoModels\\CountryRequestToUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T15:12:44.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Commands\\UpdateCommandHandler.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Cities\\Commands\\UpdateCommandHandler.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Commands\\UpdateCommandHandler.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Cities\\Commands\\UpdateCommandHandler.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:11:02.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Commands\\UpdateCommand.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Cities\\Commands\\UpdateCommand.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Commands\\UpdateCommand.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Cities\\Commands\\UpdateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:06:15.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CountryCreateCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Commands\\CountryCreateCommandHandler.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Countries\\Commands\\CountryCreateCommandHandler.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Commands\\CountryCreateCommandHandler.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Countries\\Commands\\CountryCreateCommandHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T09:31:52.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Commands\\CreateCommandHandler.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Cities\\Commands\\CreateCommandHandler.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Commands\\CreateCommandHandler.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Cities\\Commands\\CreateCommandHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:37:23.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CountryCreateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Commands\\CountryCreateCommand.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Countries\\Commands\\CountryCreateCommand.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Commands\\CountryCreateCommand.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Countries\\Commands\\CountryCreateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T09:30:37.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CountryGetAllQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Queries\\CountryGetAllQueryHandler.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Countries\\Queries\\CountryGetAllQueryHandler.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Queries\\CountryGetAllQueryHandler.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Countries\\Queries\\CountryGetAllQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T07:44:56.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CountryGetByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Queries\\CountryGetByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Countries\\Queries\\CountryGetByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Queries\\CountryGetByIdQueryHandler.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Countries\\Queries\\CountryGetByIdQueryHandler.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T09:12:51.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CountryGetByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Queries\\CountryGetByIdQuery.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Countries\\Queries\\CountryGetByIdQuery.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Countries\\Queries\\CountryGetByIdQuery.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Countries\\Queries\\CountryGetByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T09:11:43.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DomainModels\\Country.cs",
+              "RelativeDocumentMoniker": "Models\\DomainModels\\Country.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DomainModels\\Country.cs",
+              "RelativeToolTip": "Models\\DomainModels\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T15:01:32.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DeleteCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Commands\\DeleteCommand.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Cities\\Commands\\DeleteCommand.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Commands\\DeleteCommand.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Cities\\Commands\\DeleteCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T17:45:47.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Commands\\CreateCommand.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Cities\\Commands\\CreateCommand.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Commands\\CreateCommand.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Cities\\Commands\\CreateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:31:42.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetAllQuery.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Queries\\GetAllQuery.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Cities\\Queries\\GetAllQuery.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Queries\\GetAllQuery.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Cities\\Queries\\GetAllQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:10:42.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetAllQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Queries\\GetAllQueryHandler.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Cities\\Queries\\GetAllQueryHandler.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Queries\\GetAllQueryHandler.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Cities\\Queries\\GetAllQueryHandler.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:12:52.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Queries\\GetByIdQuery.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Cities\\Queries\\GetByIdQuery.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Queries\\GetByIdQuery.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Cities\\Queries\\GetByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T18:19:36.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GetByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Queries\\GetByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Cities\\Queries\\GetByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Queries\\GetByIdQueryHandler.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Cities\\Queries\\GetByIdQueryHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T18:20:18.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:29:41.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DeleteCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Commands\\DeleteCommandHandler.cs",
+              "RelativeDocumentMoniker": "RepositoriesCQRS\\Cities\\Commands\\DeleteCommandHandler.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\RepositoriesCQRS\\Cities\\Commands\\DeleteCommandHandler.cs",
+              "RelativeToolTip": "RepositoriesCQRS\\Cities\\Commands\\DeleteCommandHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwB8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T17:47:19.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250322154517_Add roles to identity.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Migrations\\20250322154517_Add roles to identity.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250322154517_Add roles to identity.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Migrations\\20250322154517_Add roles to identity.cs",
+              "RelativeToolTip": "Migrations\\20250322154517_Add roles to identity.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T19:13:53.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "WebApiDataBaseContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Migrations\\WebApiDataBaseContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\WebApiDataBaseContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Migrations\\WebApiDataBaseContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\WebApiDataBaseContextModelSnapshot.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T10:39:49.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CityResponse.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DtoModels\\CityResponse.cs",
+              "RelativeDocumentMoniker": "Models\\DtoModels\\CityResponse.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DtoModels\\CityResponse.cs",
+              "RelativeToolTip": "Models\\DtoModels\\CityResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T09:10:12.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "CityRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Repositories\\CityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Repositories\\CityRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CityRepository.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Repositories\\CityRepository.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Repositories\\CityRepository.cs",
               "RelativeToolTip": "Repositories\\CityRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwCkAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T08:56:31.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ActionFilterForCity.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Filters\\ActionFilterForCity.cs",
-              "RelativeDocumentMoniker": "Filters\\ActionFilterForCity.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Filters\\ActionFilterForCity.cs",
-              "RelativeToolTip": "Filters\\ActionFilterForCity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T14:05:31.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CountyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Repositories\\CountyRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CountyRepository.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Repositories\\CountyRepository.cs",
-              "RelativeToolTip": "Repositories\\CountyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T14:41:38.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IJwtToken.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Repositories\\IJwtToken.cs",
-              "RelativeDocumentMoniker": "Repositories\\IJwtToken.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Repositories\\IJwtToken.cs",
-              "RelativeToolTip": "Repositories\\IJwtToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T14:24:27.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Roles.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Enums\\Roles.cs",
-              "RelativeDocumentMoniker": "Enums\\Roles.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Enums\\Roles.cs",
-              "RelativeToolTip": "Enums\\Roles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T17:05:56.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CityRequestToCreate.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DtoModels\\CityRequestToCreate.cs",
-              "RelativeDocumentMoniker": "Models\\DtoModels\\CityRequestToCreate.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DtoModels\\CityRequestToCreate.cs",
-              "RelativeToolTip": "Models\\DtoModels\\CityRequestToCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T09:08:40.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 33,
               "Title": "ICityRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Repositories\\ICityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Repositories\\ICityRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ICityRepository.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Repositories\\ICityRepository.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Repositories\\ICityRepository.cs",
               "RelativeToolTip": "Repositories\\ICityRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -403,414 +751,518 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 34,
+              "Title": "ConfigureServices.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Services\\ConfigureServices.cs",
+              "RelativeDocumentMoniker": "Services\\ConfigureServices.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Services\\ConfigureServices.cs",
+              "RelativeToolTip": "Services\\ConfigureServices.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAE4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:19:28.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ExeptionFilterForCityController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Filters\\ExeptionFilterForCityController.cs",
+              "RelativeDocumentMoniker": "Filters\\ExeptionFilterForCityController.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Filters\\ExeptionFilterForCityController.cs",
+              "RelativeToolTip": "Filters\\ExeptionFilterForCityController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T16:22:17.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ActionFilterForCity.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Filters\\ActionFilterForCity.cs",
+              "RelativeDocumentMoniker": "Filters\\ActionFilterForCity.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Filters\\ActionFilterForCity.cs",
+              "RelativeToolTip": "Filters\\ActionFilterForCity.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T14:05:31.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Enums\\Roles.cs",
+              "RelativeDocumentMoniker": "Enums\\Roles.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Enums\\Roles.cs",
+              "RelativeToolTip": "Enums\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T17:05:56.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "WebApiDataBaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\DataBaseContext\\WebApiDataBaseContext.cs",
+              "RelativeDocumentMoniker": "DataBaseContext\\WebApiDataBaseContext.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\DataBaseContext\\WebApiDataBaseContext.cs",
+              "RelativeToolTip": "DataBaseContext\\WebApiDataBaseContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAawBsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T09:19:45.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ExeptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Middlewares\\ExeptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middlewares\\ExeptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Middlewares\\ExeptionMiddleware.cs",
+              "RelativeToolTip": "Middlewares\\ExeptionMiddleware.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:33:06.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAgwGAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAawBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T09:34:43.884Z"
+              "WhenOpened": "2025-03-12T09:34:43.884Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Country.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DomainModels\\Country.cs",
-              "RelativeDocumentMoniker": "Models\\DomainModels\\Country.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DomainModels\\Country.cs",
-              "RelativeToolTip": "Models\\DomainModels\\Country.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 41,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\AutoMapperProfiles\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "AutoMapperProfiles\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\AutoMapperProfiles\\AutoMapperProfile.cs",
+              "RelativeToolTip": "AutoMapperProfiles\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T15:01:32.286Z"
+              "WhenOpened": "2025-03-15T12:04:56.782Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CityResponse.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DtoModels\\CityResponse.cs",
-              "RelativeDocumentMoniker": "Models\\DtoModels\\CityResponse.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DtoModels\\CityResponse.cs",
-              "RelativeToolTip": "Models\\DtoModels\\CityResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T09:10:12.859Z"
+              "DocumentIndex": 42,
+              "Title": "LearningWebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\LearningWebApi.csproj",
+              "RelativeDocumentMoniker": "LearningWebApi.csproj",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\LearningWebApi.csproj",
+              "RelativeToolTip": "LearningWebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-15T09:13:42.577Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CountryResponse.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DtoModels\\CountryResponse.cs",
-              "RelativeDocumentMoniker": "Models\\DtoModels\\CountryResponse.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DtoModels\\CountryResponse.cs",
-              "RelativeToolTip": "Models\\DtoModels\\CountryResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 43,
+              "Title": "ICountryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Repositories\\ICountryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ICountryRepository.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Repositories\\ICountryRepository.cs",
+              "RelativeToolTip": "Repositories\\ICountryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T15:01:20.141Z"
+              "WhenOpened": "2025-03-17T14:40:24.705Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CountryRequestToUpdate.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DtoModels\\CountryRequestToUpdate.cs",
-              "RelativeDocumentMoniker": "Models\\DtoModels\\CountryRequestToUpdate.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DtoModels\\CountryRequestToUpdate.cs",
-              "RelativeToolTip": "Models\\DtoModels\\CountryRequestToUpdate.cs",
+              "DocumentIndex": 44,
+              "Title": "CityRequestToCreate.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DtoModels\\CityRequestToCreate.cs",
+              "RelativeDocumentMoniker": "Models\\DtoModels\\CityRequestToCreate.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DtoModels\\CityRequestToCreate.cs",
+              "RelativeToolTip": "Models\\DtoModels\\CityRequestToCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T09:08:40.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAcAAAAAAAAAAABBwAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T08:50:05.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "JwtToken.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Repositories\\JwtToken.cs",
+              "RelativeDocumentMoniker": "Repositories\\JwtToken.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Repositories\\JwtToken.cs",
+              "RelativeToolTip": "Repositories\\JwtToken.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAABBwC0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T23:51:46.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "clear",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\clear",
+              "RelativeDocumentMoniker": "clear",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\clear",
+              "RelativeToolTip": "clear",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-02T11:48:37.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T08:46:13.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IJwtToken.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Repositories\\IJwtToken.cs",
+              "RelativeDocumentMoniker": "Repositories\\IJwtToken.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Repositories\\IJwtToken.cs",
+              "RelativeToolTip": "Repositories\\IJwtToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T14:24:27.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CountyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Repositories\\CountyRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CountyRepository.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Repositories\\CountyRepository.cs",
+              "RelativeToolTip": "Repositories\\CountyRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAABBwBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:41:38.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "LearningWebApi.http",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\LearningWebApi.http",
+              "RelativeDocumentMoniker": "LearningWebApi.http",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\LearningWebApi.http",
+              "RelativeToolTip": "LearningWebApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-12T15:22:18.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Configurations\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\RoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Configurations\\RoleConfiguration.cs",
+              "RelativeToolTip": "Configurations\\RoleConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAABBwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:48:21.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CountryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Configurations\\CountryConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\CountryConfiguration.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Configurations\\CountryConfiguration.cs",
+              "RelativeToolTip": "Configurations\\CountryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T15:03:44.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CityConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Configurations\\CityConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\CityConfiguration.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Configurations\\CityConfiguration.cs",
+              "RelativeToolTip": "Configurations\\CityConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T08:46:33.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AuthorizeWithBearerScheme.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\CustomAttributes\\AuthorizeWithBearerScheme.cs",
+              "RelativeDocumentMoniker": "CustomAttributes\\AuthorizeWithBearerScheme.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\CustomAttributes\\AuthorizeWithBearerScheme.cs",
+              "RelativeToolTip": "CustomAttributes\\AuthorizeWithBearerScheme.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T15:12:44.483Z"
+              "WhenOpened": "2025-03-27T10:24:50.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LearningWebApi.csproj",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\LearningWebApi.csproj",
-              "RelativeDocumentMoniker": "LearningWebApi.csproj",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\LearningWebApi.csproj",
-              "RelativeToolTip": "LearningWebApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-15T09:13:42.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 57,
               "Title": "CountryRequestToCreate.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DtoModels\\CountryRequestToCreate.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DtoModels\\CountryRequestToCreate.cs",
               "RelativeDocumentMoniker": "Models\\DtoModels\\CountryRequestToCreate.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DtoModels\\CountryRequestToCreate.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DtoModels\\CountryRequestToCreate.cs",
               "RelativeToolTip": "Models\\DtoModels\\CountryRequestToCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T15:06:50.792Z"
+              "WhenOpened": "2025-03-17T15:06:50.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 56,
               "Title": "CityRepository.cs",
               "DocumentMoniker": "C:\\Users\\vital\\AppData\\Local\\SourceServer\\c0029b758488187f4784eafae539752c229de231b116cf943af2a7cdea2a4c09\\Repositories\\CityRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\c0029b758488187f4784eafae539752c229de231b116cf943af2a7cdea2a4c09\\Repositories\\CityRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vital\\AppData\\Local\\SourceServer\\c0029b758488187f4784eafae539752c229de231b116cf943af2a7cdea2a4c09\\Repositories\\CityRepository.cs",
               "ToolTip": "C:\\Users\\vital\\AppData\\Local\\SourceServer\\c0029b758488187f4784eafae539752c229de231b116cf943af2a7cdea2a4c09\\Repositories\\CityRepository.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\c0029b758488187f4784eafae539752c229de231b116cf943af2a7cdea2a4c09\\Repositories\\CityRepository.cs [Read Only]",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBkAAAAMAAAAAQAAAA==",
+              "RelativeToolTip": "..\\..\\..\\vital\\AppData\\Local\\SourceServer\\c0029b758488187f4784eafae539752c229de231b116cf943af2a7cdea2a4c09\\Repositories\\CityRepository.cs [Read Only]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T13:42:46.033Z",
               "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "20250322154517_Add roles to identity.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Migrations\\20250322154517_Add roles to identity.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250322154517_Add roles to identity.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Migrations\\20250322154517_Add roles to identity.cs",
-              "RelativeToolTip": "Migrations\\20250322154517_Add roles to identity.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T19:13:53.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 61,
               "Title": "20250324191143_UpdateUserRole.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Migrations\\20250324191143_UpdateUserRole.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Migrations\\20250324191143_UpdateUserRole.cs",
               "RelativeDocumentMoniker": "Migrations\\20250324191143_UpdateUserRole.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Migrations\\20250324191143_UpdateUserRole.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Migrations\\20250324191143_UpdateUserRole.cs",
               "RelativeToolTip": "Migrations\\20250324191143_UpdateUserRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T19:11:44.002Z"
+              "WhenOpened": "2025-03-24T19:11:44.002Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "LearningWebApi.http",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\LearningWebApi.http",
-              "RelativeDocumentMoniker": "LearningWebApi.http",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\LearningWebApi.http",
-              "RelativeToolTip": "LearningWebApi.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-03-12T15:22:18.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 59,
               "Title": "20250318151512_AddDefaultDataForCountry.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Migrations\\20250318151512_AddDefaultDataForCountry.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Migrations\\20250318151512_AddDefaultDataForCountry.cs",
               "RelativeDocumentMoniker": "Migrations\\20250318151512_AddDefaultDataForCountry.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Migrations\\20250318151512_AddDefaultDataForCountry.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Migrations\\20250318151512_AddDefaultDataForCountry.cs",
               "RelativeToolTip": "Migrations\\20250318151512_AddDefaultDataForCountry.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T15:15:12.584Z"
+              "WhenOpened": "2025-03-18T15:15:12.584Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AcountRequestToLogin.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DtoModels\\AcountRequestToLogin.cs",
-              "RelativeDocumentMoniker": "Models\\DtoModels\\AcountRequestToLogin.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DtoModels\\AcountRequestToLogin.cs",
-              "RelativeToolTip": "Models\\DtoModels\\AcountRequestToLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T10:09:31.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 58,
               "Title": "Microsoft.NET.Sdk.DefaultItems.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.104\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.104\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.104\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.104\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.104\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.104\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
               "ViewState": "AgIAAHUAAAAAAAAAAAAnwIYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-03-26T13:57:00.269Z"
+              "WhenOpened": "2025-03-26T13:57:00.269Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 60,
               "Title": "20250318151512_AddDefaultDataForCountry.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Migrations\\20250318151512_AddDefaultDataForCountry.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Migrations\\20250318151512_AddDefaultDataForCountry.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20250318151512_AddDefaultDataForCountry.Designer.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Migrations\\20250318151512_AddDefaultDataForCountry.Designer.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Migrations\\20250318151512_AddDefaultDataForCountry.Designer.cs",
               "RelativeToolTip": "Migrations\\20250318151512_AddDefaultDataForCountry.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T09:56:55.033Z"
+              "WhenOpened": "2025-03-27T09:56:55.033Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 63,
               "Title": "LearningWebApi",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\LearningWebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\LearningWebApi.csproj",
               "RelativeDocumentMoniker": "LearningWebApi.csproj",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\LearningWebApi.csproj",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\LearningWebApi.csproj",
               "RelativeToolTip": "LearningWebApi.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-18T15:34:21.236Z"
+              "WhenOpened": "2025-03-18T15:34:21.236Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 62,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vital\\AppData\\Local\\SourceServer\\7e6940256d6209d0c04566e59b38f5229ae8a83c224f9f0a769d15cf3d861119\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\7e6940256d6209d0c04566e59b38f5229ae8a83c224f9f0a769d15cf3d861119\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vital\\AppData\\Local\\SourceServer\\7e6940256d6209d0c04566e59b38f5229ae8a83c224f9f0a769d15cf3d861119\\Program.cs",
               "ToolTip": "C:\\Users\\vital\\AppData\\Local\\SourceServer\\7e6940256d6209d0c04566e59b38f5229ae8a83c224f9f0a769d15cf3d861119\\Program.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\7e6940256d6209d0c04566e59b38f5229ae8a83c224f9f0a769d15cf3d861119\\Program.cs [Read Only]",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwDAAAAAHAAAAAQAAAA==",
+              "RelativeToolTip": "..\\..\\..\\vital\\AppData\\Local\\SourceServer\\7e6940256d6209d0c04566e59b38f5229ae8a83c224f9f0a769d15cf3d861119\\Program.cs [Read Only]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T01:36:58.53Z",
               "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 64,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-24T21:46:30.065Z"
+              "WhenOpened": "2025-03-24T21:46:30.065Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\AutoMapperProfiles\\AutoMapperProfile.cs",
-              "RelativeDocumentMoniker": "AutoMapperProfiles\\AutoMapperProfile.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\AutoMapperProfiles\\AutoMapperProfile.cs",
-              "RelativeToolTip": "AutoMapperProfiles\\AutoMapperProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T12:04:56.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-12T08:50:05.354Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 65,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\vital\\AppData\\Local\\SourceServer\\5905e5e861716989d7a03de3ad9b5afb92dcdd2e4d96dc6c84310a6b16de850d\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\5905e5e861716989d7a03de3ad9b5afb92dcdd2e4d96dc6c84310a6b16de850d\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vital\\AppData\\Local\\SourceServer\\5905e5e861716989d7a03de3ad9b5afb92dcdd2e4d96dc6c84310a6b16de850d\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\vital\\AppData\\Local\\SourceServer\\5905e5e861716989d7a03de3ad9b5afb92dcdd2e4d96dc6c84310a6b16de850d\\Controllers\\AccountController.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\5905e5e861716989d7a03de3ad9b5afb92dcdd2e4d96dc6c84310a6b16de850d\\Controllers\\AccountController.cs [Read Only]",
-              "ViewState": "AgIAAEEAAAAAAAAAAIAwwFEAAAAIAAAAAQAAAA==",
+              "RelativeToolTip": "..\\..\\..\\vital\\AppData\\Local\\SourceServer\\5905e5e861716989d7a03de3ad9b5afb92dcdd2e4d96dc6c84310a6b16de850d\\Controllers\\AccountController.cs [Read Only]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T20:23:50.019Z",
               "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "WebApiDataBaseContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Migrations\\WebApiDataBaseContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\WebApiDataBaseContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Migrations\\WebApiDataBaseContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\WebApiDataBaseContextModelSnapshot.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:39:49.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 66,
               "Title": "City.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DomainModels\\City.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DomainModels\\City.cs",
               "RelativeDocumentMoniker": "Models\\DomainModels\\City.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DomainModels\\City.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DomainModels\\City.cs",
               "RelativeToolTip": "Models\\DomainModels\\City.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T09:04:17.781Z"
+              "WhenOpened": "2025-03-12T09:04:17.781Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 67,
               "Title": "20250317152659_Rename country table.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Migrations\\20250317152659_Rename country table.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Migrations\\20250317152659_Rename country table.cs",
               "RelativeDocumentMoniker": "Migrations\\20250317152659_Rename country table.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Migrations\\20250317152659_Rename country table.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Migrations\\20250317152659_Rename country table.cs",
               "RelativeToolTip": "Migrations\\20250317152659_Rename country table.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T15:26:59.558Z"
+              "WhenOpened": "2025-03-17T15:26:59.558Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "CountryConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Configurations\\CountryConfiguration.cs",
-              "RelativeDocumentMoniker": "Configurations\\CountryConfiguration.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Configurations\\CountryConfiguration.cs",
-              "RelativeToolTip": "Configurations\\CountryConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T15:03:44.805Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ICountryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Repositories\\ICountryRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ICountryRepository.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Repositories\\ICountryRepository.cs",
-              "RelativeToolTip": "Repositories\\ICountryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T14:40:24.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 68,
               "Title": "AcountRequestToRegister.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DtoModels\\AcountRequestToRegister.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DtoModels\\AcountRequestToRegister.cs",
               "RelativeDocumentMoniker": "Models\\DtoModels\\AcountRequestToRegister.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DtoModels\\AcountRequestToRegister.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\DtoModels\\AcountRequestToRegister.cs",
               "RelativeToolTip": "Models\\DtoModels\\AcountRequestToRegister.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T11:08:15.978Z"
+              "WhenOpened": "2025-03-15T11:08:15.978Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 73,
               "Title": "20250315105222_Add identity tables.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Migrations\\20250315105222_Add identity tables.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Migrations\\20250315105222_Add identity tables.cs",
               "RelativeDocumentMoniker": "Migrations\\20250315105222_Add identity tables.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Migrations\\20250315105222_Add identity tables.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Migrations\\20250315105222_Add identity tables.cs",
               "RelativeToolTip": "Migrations\\20250315105222_Add identity tables.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwBkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:52:22.809Z"
+              "WhenOpened": "2025-03-15T10:52:22.809Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 70,
               "Title": "20250310191717_Initialisation and created CRUD operations.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Migrations\\20250310191717_Initialisation and created CRUD operations.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Migrations\\20250310191717_Initialisation and created CRUD operations.cs",
               "RelativeDocumentMoniker": "Migrations\\20250310191717_Initialisation and created CRUD operations.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Migrations\\20250310191717_Initialisation and created CRUD operations.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Migrations\\20250310191717_Initialisation and created CRUD operations.cs",
               "RelativeToolTip": "Migrations\\20250310191717_Initialisation and created CRUD operations.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwDAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:39:54.432Z"
+              "WhenOpened": "2025-03-15T10:39:54.432Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 71,
               "Title": "ApplicationRole.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\EntityModels\\ApplicationRole.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\EntityModels\\ApplicationRole.cs",
               "RelativeDocumentMoniker": "Models\\EntityModels\\ApplicationRole.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\EntityModels\\ApplicationRole.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\EntityModels\\ApplicationRole.cs",
               "RelativeToolTip": "Models\\EntityModels\\ApplicationRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T09:13:29.823Z"
+              "WhenOpened": "2025-03-15T09:13:29.823Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 69,
               "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\EntityModels\\ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\EntityModels\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\EntityModels\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\EntityModels\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0406\u0410\u041D\u0410\\Desktop\\LerningAllAboutWebApi\\Models\\EntityModels\\ApplicationUser.cs",
               "RelativeToolTip": "Models\\EntityModels\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T09:13:09.197Z"
+              "WhenOpened": "2025-03-15T09:13:09.197Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "CityRequestToUpdate.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DtoModels\\CityRequestToUpdate.cs",
-              "RelativeDocumentMoniker": "Models\\DtoModels\\CityRequestToUpdate.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Models\\DtoModels\\CityRequestToUpdate.cs",
-              "RelativeToolTip": "Models\\DtoModels\\CityRequestToUpdate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T20:50:51.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 72,
               "Title": "CityController.cs",
               "DocumentMoniker": "C:\\Users\\vital\\AppData\\Local\\SourceServer\\e25d2c208a713e835d4b530ad1d2d76bd6e99fa5ddc588f9082256ab7a76b3a2\\Controllers\\CityController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\e25d2c208a713e835d4b530ad1d2d76bd6e99fa5ddc588f9082256ab7a76b3a2\\Controllers\\CityController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vital\\AppData\\Local\\SourceServer\\e25d2c208a713e835d4b530ad1d2d76bd6e99fa5ddc588f9082256ab7a76b3a2\\Controllers\\CityController.cs",
               "ToolTip": "C:\\Users\\vital\\AppData\\Local\\SourceServer\\e25d2c208a713e835d4b530ad1d2d76bd6e99fa5ddc588f9082256ab7a76b3a2\\Controllers\\CityController.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\e25d2c208a713e835d4b530ad1d2d76bd6e99fa5ddc588f9082256ab7a76b3a2\\Controllers\\CityController.cs [Read Only]",
-              "ViewState": "AgIAACoAAAAAAAAAAAAkwDoAAAAMAAAAAQAAAA==",
+              "RelativeToolTip": "..\\..\\..\\vital\\AppData\\Local\\SourceServer\\e25d2c208a713e835d4b530ad1d2d76bd6e99fa5ddc588f9082256ab7a76b3a2\\Controllers\\CityController.cs [Read Only]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T10:56:14.033Z",
               "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "CityConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Configurations\\CityConfiguration.cs",
-              "RelativeDocumentMoniker": "Configurations\\CityConfiguration.cs",
-              "ToolTip": "C:\\Users\\vital\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\LerningAllAboutWebApi\\Configurations\\CityConfiguration.cs",
-              "RelativeToolTip": "Configurations\\CityConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T08:46:33.663Z"
             }
           ]
         }

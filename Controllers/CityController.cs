@@ -5,23 +5,23 @@ using LearningWebApi.Models.DtoModels;
 using LearningWebApi.Models.DomainModels;
 using LearningWebApi.CustomAttributes;
 using LearningWebApi.Filters;
+using MediatR;
+using LearningWebApi.RepositoriesCQRS.Cities.Queries;
+using LearningWebApi.RepositoriesCQRS.Cities.Commands;
 
 namespace LearningWebApi.Controllers
 {
 
     [Route("api/[controller]")]
     [ApiController]
-    [TypeFilter(typeof(ExeptionFilterForCityController))]
     public class CityController : ControllerBase
     {
-        private readonly ICityRepository cityRepository;
-        private readonly IMapper mapper;
 
+        private readonly IMediator mediator;
 
-        public CityController(ICityRepository cityRepository, IMapper mapper)
+        public CityController(IMediator mediator)
         {
-            this.cityRepository = cityRepository;
-            this.mapper = mapper;
+            this.mediator = mediator;
         }
 
         [TypeFilter(typeof(ActionFilterForCity))]
@@ -31,61 +31,45 @@ namespace LearningWebApi.Controllers
             [FromQuery] string? sortBy = null, [FromQuery] bool isAsending = true,
             [FromQuery] int namberOfPage = 1, [FromQuery] int pageSize = 1000)
         {
-            var cities = await cityRepository.GetAllAsync(filterOn, filterBy,sortBy,isAsending,namberOfPage,pageSize);
+            var cities = await mediator.Send(new GetAllQuery(filterOn, filterBy,
+              sortBy, isAsending, namberOfPage, pageSize));
 
-            if (cities == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(mapper.Map<List<CityResponse>>(cities));
+            return Ok(cities);
         }
 
         [AuthorizeWithBearerScheme(Roles = "Admin,User")]
         [HttpGet("{id:guid}")]
-        public async Task<ActionResult<CityResponse>> GetById(Guid id)
+        public async Task<ActionResult<CityResponse>> GetById([FromRoute] Guid id)
         {
-            City? city = await cityRepository.GetByIdAsyncRepo(id);
+            var product = await mediator.Send(new GetByIdQuery(id));
 
-            if (city == null)
-            {
-                return NotFound();
-            }
-            return Ok(mapper.Map<CityResponse>(city));
+            return product;
         }
 
-        [AuthorizeWithBearerScheme(Roles = "Admin")]
         [HttpPost]
-        public async Task<ActionResult<CityResponse>> Create(CityRequestToCreate request)
+        [AuthorizeWithBearerScheme(Roles = "Admin")]
+        public async Task<ActionResult<CityResponse>> Create([FromBody] CityRequestToCreate request)
         {
-            var createdCity = await cityRepository.CreateAsync(mapper.Map<City>(request));
+            var createdCity = await mediator.Send(new CreateCommand(request));
 
-            return CreatedAtAction(nameof(GetById), controllerName: "City", new { id = createdCity.Id }, mapper.Map<CityResponse>(createdCity));
+            return CreatedAtAction(nameof(GetById), new { id = createdCity.Id }, createdCity);
         }
 
-        [AuthorizeWithBearerScheme(Roles = "Admin")]
         [HttpPut("{Id:guid}")]
         public async Task<ActionResult<CityResponse>> Update([FromRoute] Guid Id, [FromBody] CityRequestToUpdate cityRequest)
         {
-            var updatedCity = await cityRepository.UpdateAsync(Id, mapper.Map<City>(cityRequest));
-            if (updatedCity == null)
-            {
-                return NotFound();
-            }
+            var updatedCity = await mediator.Send(new UpdateCommand(Id, cityRequest));
 
-            return Ok(mapper.Map<CityResponse>(updatedCity));
+            return Ok(updatedCity);
         }
 
-        [AuthorizeWithBearerScheme(Roles = "Admin")]
         [HttpDelete("{Id:guid}")]
-        public async Task<ActionResult<CityResponse>> Delete(Guid Id)
+        [AuthorizeWithBearerScheme(Roles = "Admin")]
+        public async Task<ActionResult<CityResponse>> Delete([FromRoute] Guid Id)
         {
-            var deletedCity = await cityRepository.DeleteAsync(Id);
-            if (deletedCity == null)
-            {
-                return NotFound();
-            }
-            return Ok(mapper.Map<CityResponse>(deletedCity));
+            var deletedCity = await mediator.Send(new DeleteCommand(Id));
+
+            return Ok(deletedCity);
         }
     }
 }

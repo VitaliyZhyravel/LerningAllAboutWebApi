@@ -13,7 +13,6 @@ namespace LearningWebApi.Controllers
 {
     [Route("api/Account")]
     [ApiController]
-    [TypeFilter(typeof(ExeptionFilterForCityController))]
     public class AccountController : ControllerBase
     {
         private readonly IMapper mapper;
